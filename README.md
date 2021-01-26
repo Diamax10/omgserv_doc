@@ -1,1 +1,4 @@
-# omgserv_doc
+# Accueil
+
+Bienvenue sur la documentation communautaire d'OMGSERV !
+
