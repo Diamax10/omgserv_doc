@@ -4,11 +4,11 @@
 
 ## Minecraft
 
-* [Installation de Forge via Openmods](minecraft/installation-de-forge-via-openmod.md)
+* [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
+* [Installation de Forge sur un serveur](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
-* [Installation de Forge sur un serveur OMGSERV](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
-* [Optimisation d'un serveur Minecraft OMGSERV](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
+* [Optimisation d'un serveur Minecraft](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
 * [Upload une map](minecraft/upload-une-map.md)
 * [Whitelist en Crack](minecraft/whitelist-en-crack.md)
 * [Sauvegarde et restauration](minecraft/sauvegarde-et-restauration.md)

@@ -6,7 +6,7 @@ description: >-
 
 # Sauvegarde et restauration
 
-## Faire une sauvegarde
+### Faire une sauvegarde
 
 * Effectuez la sauvegarde dans l'onglet **Sauvegardes**.
 * La verrouiller en cliquant sur les **petits points**, puis sur **éditer** \(cela permet que rien ne peut la supprimer, sauf si vous effectuez la suppression manuellement\).
@@ -14,14 +14,16 @@ description: >-
 * _Optionnel:  réinstaller le serveur dans l'onglet réinstallation si vous souhaitiez changer de serveur._
 * Have fun :D
 
-## Restaurer sa sauvegarde
+### Restaurer sa sauvegarde
 
 * Il suffit de retourner dans l'onglet **Sauvegardes**.
 * Cliquez sur la sauvegarde anciennement effectuée \(cliquez sur les petits points\). 
 * Il est possible de restaurer totalement ou partiellement en choisissant des dossiers particliuer, à vous de voir.
 * Plus qu'à redémarrer et jouer ! 
 
-## Make a backup
+## English version
+
+### Make a backup
 
 * Make the backup in the **Backups** tab.
 * Lock it by clicking on the **small dots** and then on **edit** \(this ensures that nothing can delete it unless you delete it manually\).
@@ -29,7 +31,7 @@ description: >-
 * Optional: reinstall the server in the reinstall tab if you want to change server.
 * Have fun :D
 
-## Restore your backup
+### Restore your backup
 
 * Just go back to the **Backup** tab.
 * Click on the old backup \(click on the small dots\). 

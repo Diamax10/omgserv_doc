@@ -1,6 +1,10 @@
-# Installation de Forge via Openmods
+---
+description: >-
+  Dans ce tutoriel nous allons voir comment utiliser l’openmod pour installer
+  une version de forge non disponible sur le panel OMGSERV.
+---
 
-> Dans ce tutoriel nous allons voir comment utiliser l’openmods pour installer une version de forge non disponible sur le panel OMGSERV.
+# Installation de Forge via Openmod
 
 ### Installation
 
@@ -21,7 +25,7 @@
 
 ## English version
 
-> In this tutorial we will see how to use openmods to install a forge version not available on the OMGSERV panel.
+> In this tutorial we will see how to use openmod to install a forge version not available on the OMGSERV panel.
 
 ### Installation
 
@@ -31,7 +35,7 @@
 * Drag **both `.jar` \(server and client\), the `libraries` folder and the `.json` file** that will have been extracted previously.
 * Set the **.jar client** as **.jar startup** \(OMGSERV requires it\).
 
-## Configuration
+### Configuration
 
 * Start the server. If it does not start, make sure that Java 8 is enabled in the panel **properties**.
 * Wait for the server to turn on completely \(see the console if necessary\) then turn off the server.

@@ -1,6 +1,11 @@
-# Dois-je supprimer mon monde ?
+---
+description: >-
+  Il y a plusieurs raison de devoir supprimer son monde pour le réinitialiser.
+  Nous allons voir différents cas où il est nécessaire de supprimer son monde
+  pour le réinitialiser.
+---
 
-Il y a plusieurs raison de devoir supprimer son monde pour le réinitialiser. Nous allons voir différents cas où il est nécessaire de supprimer son monde pour le réinitialiser.
+# Dois-je supprimer mon monde ?
 
 ### Changement de version Minecraft
 

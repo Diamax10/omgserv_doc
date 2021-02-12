@@ -1,12 +1,12 @@
 ---
-description: Apprendre à utiliser l'outil hastebin pour le partage de logs et d'erreur
+description: >-
+  Afin de pouvoir se faire aider sur des problèmes affectant son serveur, il est
+  important de partager ses logs car ce sont eux qui vont guider le support.
 ---
 
 # Comment partager ses logs Minecraft ?
 
-> Afin de pouvoir se faire aider sur des problèmes affectant son serveur, il est important de partager ses logs car ce sont eux qui vont guider le support.
-
-## 6 étapes simples
+### 6 étapes simples
 
 1. Récupérer les derniers logs de son serveur via le WebFTP ou en FTP avec un client \(ex: Filezilla, WinSCP ...\), dans le dossier log le fichier `latest.log` et/ou `fml-latest.log`.
 2. Aller sur [haste.zendrique.ml](https://haste.zendrique.ml).

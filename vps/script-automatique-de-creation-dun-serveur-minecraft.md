@@ -8,7 +8,7 @@ description: >-
 
 1- Le système d'exploitation Debian 10 \(Buster\) est obligatoire, l'accès root est facultatif, pour réinstaller votre VPS, dirigez vous sur votre panel onglet "réinstallation".
 
-2- Connexion au VPS via le protocole SSH, un outils type Putty est recommandé \(pour Windows\), vos informations de connexion vous sont envoyées par mail, n'oubliez pas de vérifier vos spams. Une fois ces informations récupérées, connectez-vous à votre VPS.
+2- Connectez vous en SSH à votre serveur. Pour cela, un outils type Putty est recommandé \(pour Windows\), vos informations de connexion vous sont envoyées par mail, n'oubliez pas de vérifier vos spams.
 
 3- Collez cette ligne de commande dans votre terminal et appuyez sur la touche entrée :
 
@@ -16,7 +16,9 @@ description: >-
 sudo wget -P /opt https://github.com/zendrique/mc-script/releases/download/1.4/boot.sh && sudo bash /opt/boot.sh
 ```
 
-_\(note : clique droit pour coller dans un terminal :smirk:\)_
+{% hint style="info" %}
+ Avec Putty clique droit pour coller dans un terminal
+{% endhint %}
 
 4- Suivez les instructions et répondez aux questions demandées.
 

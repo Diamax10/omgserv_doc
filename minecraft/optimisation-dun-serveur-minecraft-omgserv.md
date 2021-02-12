@@ -1,10 +1,10 @@
 ---
 description: >-
   Tutoriel pour palier aux soucis de spawn de mobs ou d'aggro, de distance de
-  vue sur votre serveur (ou autres) Vanilla, Bukkit, Spigot ou bien Paper
+  vue sur votre serveur (ou autres) Vanilla, Bukkit, Spigot ou bien Paper.
 ---
 
-# Optimisation d'un serveur Minecraft OMGSERV
+# Optimisation d'un serveur Minecraft
 
 **Des soucis de spawn de mobs, d'aggro, de distance de vue sur votre serveur \(ou autres\) Vanilla, Bukkit, Spigot ou bien Paper ?**
 
