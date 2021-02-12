@@ -15,3 +15,7 @@ description: >-
 5. Copier l'URL de son navigateur qui a dû changer.
 6. Partager cette URL avec le support.
 
+### Le serveur crash ?
+
+Il a dû généré un dossier `crash-reports`, il suffit de copier-coller le contenu du dernier fichier généré \(voir la date de dernière modification du fichier\) dans l'outil présenté au dessus. Si le texte est trop long, prenez les 500 premières lignes du fichier.
+
