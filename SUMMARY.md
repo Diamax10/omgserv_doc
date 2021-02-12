@@ -4,15 +4,15 @@
 
 ## Minecraft
 
-* [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Installation de Forge sur un serveur](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
-* [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
+* [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
-* [Optimisation d'un serveur Minecraft](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
-* [Upload une map](minecraft/upload-une-map.md)
-* [Whitelist en Crack](minecraft/whitelist-en-crack.md)
-* [Sauvegarde et restauration](minecraft/sauvegarde-et-restauration.md)
+* [Ajout d'un monde personnalisé](minecraft/upload-une-map.md)
+* [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
+* [Comment optimiser son serveur Minecraft ?](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
+* [Comment mettre une whitelist sur un serveur acceptant les versions crack ?](minecraft/whitelist-en-crack.md)
 * [Comment partager ses logs Minecraft ?](minecraft/comment-partager-ses-logs-minecraft.md)
+* [Sauvegarde et restauration de son serveur OMGSERV](minecraft/sauvegarde-et-restauration.md)
 
 ## VPS
 

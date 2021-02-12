@@ -1,10 +1,10 @@
 ---
-description: Tutoriel destiné à l'utilisation de la Whitelist en version Crack
+description: >-
+  Tutoriel destiné à l'utilisation de la whitelist avec un serveur qui autorise
+  les versions crack.
 ---
 
-# Whitelist en Crack
-
-**Whitelist en crack:**
+# Comment mettre une whitelist sur un serveur acceptant les versions crack ?
 
 Pour un nouveau joueur:
 
@@ -17,8 +17,6 @@ Pour les joueurs déjà enregistrés via cette manipulation plus besoin de désa
 En bref pour l'ajouter, il faut que le joueur se soit connecter au minimum **une fois** sur le serveur.
 
 ## English version
-
-**Whitelist with crack-on:**
 
 For a new player:
 

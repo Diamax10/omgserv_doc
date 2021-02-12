@@ -1,10 +1,10 @@
 ---
-description: Mettre une map personnelle sur son serveur Minecraft
+description: Comment mettre un monde personnel sur son serveur Minecraft ?
 ---
 
-# Upload une map
+# Ajout d'un monde personnalisé
 
-**Mettre une map sur son serveur Minecraft:**
+**Mettre un monde sur son serveur Minecraft:**
 
 Dans le cas où nous travaillons sur un monde nommée **world** par défaut.
 
@@ -18,7 +18,7 @@ Dans le cas où nous travaillons sur un monde nommée **world** par défaut.
 
 ## English version
 
-**Put a map on your Minecraft server:**
+**Put a world on your Minecraft server:**
 
 In case we are working on a world named **world** by default.
 

@@ -4,7 +4,7 @@ description: >-
   vue sur votre serveur (ou autres) Vanilla, Bukkit, Spigot ou bien Paper.
 ---
 
-# Optimisation d'un serveur Minecraft
+# Comment optimiser son serveur Minecraft ?
 
 **Des soucis de spawn de mobs, d'aggro, de distance de vue sur votre serveur \(ou autres\) Vanilla, Bukkit, Spigot ou bien Paper ?**
 

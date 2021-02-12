@@ -1,10 +1,10 @@
 ---
 description: >-
   Tutoriel destiné à la création de sauvegardes et à leur restauration via le
-  panel OMGSERV
+  panel OMGSERV.
 ---
 
-# Sauvegarde et restauration
+# Sauvegarde et restauration de son serveur OMGSERV
 
 ### Faire une sauvegarde
 
