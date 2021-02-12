@@ -14,6 +14,8 @@ description: >-
 * Glisser **les deux `.jar` \(server et client\), le dossier `librairies` et le fichier `.json`** qui auront été extrait précédemment.
 * Définir le **.jar client** en **.jar de démarrage** \(OMGSERV le demande\).
 
+![](../.gitbook/assets/small_capture_d_ecran_2021_01_13_a_14_26_55_49c6053892.png)
+
 ### Configuration
 
 * Démarrez le serveur. Si celui ne démarre pas, vérifiez que Java 8 est activé dans les **propriétés** du panel.
@@ -30,7 +32,7 @@ description: >-
 ### Installation
 
 * Download on [Forge's website](http://files.minecraftforge.net) the desired version of Forge \(example: 1.12.2-14.23.5.2838\).
-* Install Forge in server version, take care to enter an empty installation folder \(see the capture below\).
+* Install Forge in server version, take care to enter an empty installation folder \(see the capture above in French section\).
 * Perform a server reinstallation in the "Reinstall" tab and select Openmod.
 * Drag **both `.jar` \(server and client\), the `libraries` folder and the `.json` file** that will have been extracted previously.
 * Set the **.jar client** as **.jar startup** \(OMGSERV requires it\).
