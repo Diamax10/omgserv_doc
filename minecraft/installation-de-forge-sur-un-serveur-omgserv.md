@@ -4,7 +4,7 @@ description: >-
   Minecraft.
 ---
 
-# Installation de Forge sur un serveur
+# Installation de Forge via l'installateur automatique
 
 **Installer Forge et ses mods sur son serveur Minecraft**
 

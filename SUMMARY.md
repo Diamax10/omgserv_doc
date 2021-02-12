@@ -4,7 +4,7 @@
 
 ## Minecraft
 
-* [Installation de Forge sur un serveur](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
+* [Installation de Forge via l'installateur automatique](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
 * [Ajout d'un monde personnalisé](minecraft/upload-une-map.md)
