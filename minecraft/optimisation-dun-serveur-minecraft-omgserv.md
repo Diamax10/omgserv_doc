@@ -1,7 +1,7 @@
 ---
 description: >-
-  Tutoriel pour palier aux soucis de spawn de mobs ou d'aggro, de distance de
-  vue sur votre serveur (ou autres) Vanilla, Bukkit, Spigot ou bien Paper.
+  Vous avez des lags sur votre serveur Vanilla, Bukkit, Spigot ou bien Paper ?
+  Dans ce tutoriel nous allons voir comment essayer de résoudre ces problèmes.
 ---
 
 # Comment optimiser son serveur Minecraft ?
