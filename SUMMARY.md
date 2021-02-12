@@ -4,5 +4,6 @@
 
 ## Minecraft
 
-* [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
+* [Installation de Forge via Openmods](minecraft/installation-de-forge-via-openmod.md)
+* [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
 
