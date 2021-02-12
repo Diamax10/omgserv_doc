@@ -6,24 +6,33 @@ description: >-
 
 # Comment optimiser son serveur Minecraft ?
 
-**Des soucis de spawn de mobs, d'aggro, de distance de vue sur votre serveur \(ou autres\) Vanilla, Bukkit, Spigot ou bien Paper ?**
+### Introduction
 
-* Rendez-vous sur le Panel dans la section **Propriétés**.
-* À droite, décochez l'option d'optimisation et sauvegarder.
-* Redémarrez votre serveur.
-* Rendez-vous ensuite dans la section Webftp.
+La communauté de Spigot propose [un guide](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/) pour optimiser efficacement son serveur Minecraft. Ce guide comprend une multitude d'options à modifier dans les différentes configuration disponible d'un serveur Minecraft. Ici nous allons vous donner nos modifications efficaces en se basant sur ce guide.
 
-**Deux options s'offrent à vous:**
+Tout d'abord, **choisissez une bonne API de serveur Minecraft**. Il en existe beaucoup sur Internet, les 4 grands sont [Bukkit](https://dev.bukkit.org/), [Spigot](https://www.spigotmc.org/), [Paper](https://papermc.io/) et [Tuinity](https://github.com/Spottedleaf/Tuinity). Nous vous conseillons de prendre soit Paper soit Tuinity pour avoir de bonnes performances même sans changer la configuration. Tuinity est tout simplement une version amélioré de Paper, il se base dessus. 
 
-* Supprimer les fichiers si existants: `bukkit.yml`, `spigot.yml` et `paper.yml` \(pour réinitialiser tous les paramètres d'optimisation\).
+Ce qui fait la puissance de Paper ce sont ses multiples options disponibles dans la configuration qui permettent de tout modifier pour optimiser au mieux son serveur. Mais c'est surtout son système de génération de monde utilisant plusieurs coeurs de processeur ce qui le rend très efficace !
 
-OU
+### Configuration
 
-* Rendez-vous sur [le site de Spigot ](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/).
-* Ouvrez les différents fichiers `bukkit.yml`, `spigot.yml` et `paper.yml` afin de modifier les réglages à votre guise. Le lien vous explique à quoi chaque ligne correspond, à vous de jouer !
+Dans cette partie nous allons nous baser sur un serveur utilisant Tuinity, cependant si vous utiliser Bukkit, Spigot ou Paper vous pouvez le suivre aussi, sauf qu'il faudra prendre en compte que certains fichier ne sont pas disponible sur certains type de serveur.
 
-**Pour finir:**
+{% tabs %}
+{% tab title="bukkit.yml" %}
+En cours de rédaction
+{% endtab %}
 
-* Sauvegardez ce que vous avez fait.
-* Redémarrez votre serveur.
+{% tab title="spigot.yml" %}
+En cours de rédaction
+{% endtab %}
+
+{% tab title="paper.yml" %}
+En cours de rédaction
+{% endtab %}
+
+{% tab title="tuinity.yml" %}
+En cours de rédaction
+{% endtab %}
+{% endtabs %}
 
