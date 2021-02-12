@@ -6,9 +6,9 @@ description: >-
 
 # Accueil
 
-Bienvenue sur la documentation communautaire d'OMGSERV !
+Bienvenue sur la documentation communautaire d'Idelya Network !
 
 Sur ce site vous pouvez retrouver une multitude de tutoriels, rédigés par nos soins, tout en essayant d'être le plus clair possible. De plus nos tutoriels sont mis à jour régulièrement afin de profiter des dernières nouveautés.
 
-Nous ne sommes pas affilié à OMGSERV, cette documentation est purement communautaire, toutes actions fait sur votre serveur n'engage que vous.
+Nous ne sommes pas affilié à OMGSERV qui l'hébergeur de référence dans cette documentation. Cette documentation est purement communautaire, toutes actions fait sur votre serveur n'engage que vous.
 
