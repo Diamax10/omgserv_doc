@@ -1,10 +1,10 @@
 ---
 description: >-
-  Vous avez des lags sur votre serveur Vanilla, Bukkit, Spigot ou bien Paper ?
-  Dans ce tutoriel nous allons voir comment essayer de résoudre ces problèmes.
+  Vous avez des lags sur votre serveur Minecraft ? Dans ce tutoriel nous allons
+  voir comment essayer de résoudre ces problèmes.
 ---
 
-# Comment optimiser son serveur Minecraft ?
+# Optimiser son serveur Minecraft
 
 ### Introduction
 

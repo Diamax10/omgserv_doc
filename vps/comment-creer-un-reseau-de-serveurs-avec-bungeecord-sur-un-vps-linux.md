@@ -4,7 +4,7 @@ description: >-
   eux grâce à Bungeecord sur votre VPS !
 ---
 
-# Comment créer un réseau de serveurs avec Bungeecord sur un VPS Linux ?
+# Créer un réseau de serveurs avec Bungeecord sur un VPS Linux
 
 ## Définition
 

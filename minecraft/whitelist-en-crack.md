@@ -4,7 +4,7 @@ description: >-
   les versions crack.
 ---
 
-# Comment mettre une whitelist sur un serveur acceptant les versions crack ?
+# Mettre une whitelist sur un serveur acceptant les versions crack
 
 Pour ajouter un joueur qui ne s'est jamais connecté:
 
