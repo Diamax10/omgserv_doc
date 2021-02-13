@@ -41,7 +41,7 @@ Pour cela utilisez un client comme [FileZilla](https://filezilla-project.org/dow
 * Dans le champ "Port", mettez 22.
 * Dans le champ "Utilisateur", mettez votre nom d'utilisateur avec lequel vous vous êtes connecté en SSH.
 * Dans le champ "Mot de passe", mettez votre mot de passe avec lequel vous vous êtes connecté en SSH.
-* Si vous avez la possibilité de choisir le type de protocol utilisé, choisissez "SFTP", sinon, ajouter `sftp://` devant l'adresse IP dans le champ "Hôte".
+* Si vous avez la possibilité de choisir le type de protocol utilisé, choisissez "SFTP", sinon, ajoutez `sftp://` devant l'adresse IP dans le champ "Hôte".
 
 Une fois tout cela rempli, vous pouvez votre connecter et ainsi avoir accès à tous les fichiers de votre serveur Minecraft.
 
