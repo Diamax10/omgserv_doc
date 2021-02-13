@@ -11,7 +11,7 @@ description: >-
 * Debian 10 \(Buster\)
 * Un accès SSH au serveur \([tutoriel](https://www.omgserv.com/fr/faq-vps/comment_me_connecter_en_ssh__mon_vps-104/)\)
 
-Si vous n'avez pas les pré-requis cité ci-dessus le script ne pourra fonctionner. Pour installer Debian 10 sur votre VPS, dirigez vous sur l'onglet "Réinstallation" sur votre panel. Les identifiants de connexion SSH vous seront envoyer par mail à la suite de l'installation \(vérifier vos spams\).
+Si vous n'avez pas les pré-requis cités ci-dessus le script ne pourra fonctionner. Pour installer Debian 10 sur votre VPS, dirigez vous sur l'onglet "Réinstallation" sur votre panel. Les identifiants de connexion SSH vous seront envoyés par mail à la suite de l'installation \(vérifier vos spams\).
 
 ### Utilisation du script
 
