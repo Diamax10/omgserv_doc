@@ -16,7 +16,7 @@ Ce qui fait la puissance de Paper ce sont ses multiples options disponibles dans
 
 ### Configuration
 
-Dans cette partie nous allons nous baser sur un serveur utilisant Tuinity, cependant si vous utiliser Bukkit, Spigot ou Paper vous pouvez le suivre aussi, sauf qu'il faudra prendre en compte que certains fichier ne sont pas disponible sur certains type de serveur.
+Dans cette partie nous allons nous baser sur un serveur utilisant Paper, cependant si vous utiliser Bukkit, Spigot vous pouvez le suivre aussi, sauf qu'il faudra prendre en compte que certains fichier ne sont pas disponible sur certains type de serveur. 
 
 {% tabs %}
 {% tab title="bukkit.yml" %}
@@ -53,10 +53,6 @@ Dans cette partie nous allons nous baser sur un serveur utilisant Tuinity, cepen
 `use-faster-eigencraft-redstone` mettre la valeur à `true`
 
 `per-player-mob-spawns` mettre la valeur à `true`
-{% endtab %}
-
-{% tab title="tuinity.yml" %}
-En cours de rédaction
 {% endtab %}
 {% endtabs %}
 
