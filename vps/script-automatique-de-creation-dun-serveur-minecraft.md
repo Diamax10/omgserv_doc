@@ -29,7 +29,7 @@ sudo wget -P /opt https://github.com/zendrique/mc-script/releases/download/1.4/b
 **Sur Linux**, faites clique droit puis "Coller" **ou** `CTRL + SHIFT + C` pour coller la commande.
 {% endhint %}
 
-Une fois la commande exécuter, suivez tout simplement les instructions affichées dans le terminal. Lisez tout, c'est important.
+Une fois la commande exécuter, le script **vous demandera votre mot de passe**, saisissez le. Cependant faites attention, lorsque vous tapez votre mot de passe il n'est pas visible "vous tapez à l'aveugle" ne soyez pas surpris. Une fois cela fait, suivez tout simplement les instructions affichées dans le terminal. **Lisez tout**, c'est important.
 
 ### Accéder aux fichiers
 

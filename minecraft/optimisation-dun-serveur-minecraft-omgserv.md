@@ -20,19 +20,45 @@ Dans cette partie nous allons nous baser sur un serveur utilisant Tuinity, cepen
 
 {% tabs %}
 {% tab title="bukkit.yml" %}
-En cours de rédaction
+`chunk-gc` --&gt; `period-in-ticks` mettre la valeur à 400.
+
+`ticks-per` --&gt; `monster-spawns` mettre la valeur à 4
 {% endtab %}
 
 {% tab title="spigot.yml" %}
-En cours de rédaction
+`tick-inactive-villagers` mettre la valeur à `false`
+
+`merge-radius` mettre les valeurs `item` à `4.0` et `exp` à `6.0`
 {% endtab %}
 
 {% tab title="paper.yml" %}
-En cours de rédaction
+`max-auto-save-chunks-per-tick` mettre la valeur à 8
+
+`optimize-explosions` mettre la valeur à `true`
+
+`mob-spawner-tick-rate` mettre la valeur à 2
+
+`disable-chest-cat-detection` mettre la valeur à `true`
+
+`container-update-tick-rate` mettre la valeur à 3
+
+`max-entity-collisions` mettre la valeur à 4
+
+`grass-spread-tick-rate` mettre la valeur à 4
+
+`hopper` --&gt; `disable-move-event` mettre la valeur à `true`
+
+`prevent-moving-into-unloaded-chunks` mettre la valeur à `true`
+
+`use-faster-eigencraft-redstone` mettre la valeur à `true`
+
+`per-player-mob-spawns` mettre la valeur à `true`
 {% endtab %}
 
 {% tab title="tuinity.yml" %}
 En cours de rédaction
 {% endtab %}
 {% endtabs %}
+
+
 
