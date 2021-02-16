@@ -32,11 +32,9 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 
 **Quel type de serveur choisir ?**
 
-Pour choisir votre type de serveur, il faut:
-
-*  Commencer par regarder votre version de jeu. Par exemple, je suis en 1.12.2; je pourrai installer Mohist, Catserver ou bien SpongeForge.
+* Il faut commencer par regarder votre version de jeu. Par exemple, je suis en 1.12.2; je pourrai installer Mohist, Catserver ou bien SpongeForge.
 * Ensuite, je regarde mes besoins en plugins. Mes plugins viennent du site de Spigot donc je me dirige vers un type de serveur comme Mohist ou bien Catserver. 
-* Pour terminer, je vais prendre Mohist car celui-ci me permettra d'évoluer dans le temps car il est plus souvent mis à jour. 
+* Pour terminer, je vais prendre Mohist car celui-ci me convient le mieux \(choix personnel\). 
 
 Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-dessous !
 
