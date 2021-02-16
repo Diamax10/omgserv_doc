@@ -22,13 +22,23 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 **Les différents types de serveur:**
 
-* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2 et 1.16.5**.
+* [**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2 et 1.16.5**.
 * \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**. 
 * **KCauldron:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**. 
 * **Thermos:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
 * \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible en **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 et 1.12.2**.
 
 _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura plus de nouvelles versions pour ces types de serveurs._
+
+**Quel type de serveur choisir ?**
+
+Pour choisir votre type de serveur, il faut:
+
+*  Commencer par regarder votre version de jeu. Par exemple, je suis en 1.12.2; je pourrai installer Mohist, Catserver ou bien SpongeForge.
+* Ensuite, je regarde mes besoins en plugins. Mes plugins viennent du site de Spigot donc je me dirige vers un type de serveur comme Mohist ou bien Catserver. 
+* Pour terminer, je vais prendre Mohist car celui-ci me permettra d'évoluer dans le temps car il est plus souvent mis à jour. 
+
+Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-dessous !
 
 **Installation de Mohist, Catserver, KCauldron et Thermos:**
 
