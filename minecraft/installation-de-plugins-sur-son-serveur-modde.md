@@ -22,15 +22,15 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 **Les différents types de serveur:**
 
-* **Mohist:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX.
-* **Catserver:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
+* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX.
+* \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en 1.12.2. 
 * **KCauldron:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
 * **Thermos:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
-* **SpongeForge:** adapté à l'API SpongeForge, disponible dans les versions XXX.
+* \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible dans les versions XXX.
 
 _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura plus de nouvelles versions pour ces types de serveurs._
 
-**Installation de Mohist, Catserver, KCauldron et Thermos**
+**Installation de Mohist, Catserver, KCauldron et Thermos:**
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
 * \( Pour KCauldron et Thermos: laisser Java 7 dans l'onglet **Propriétés**\) 
@@ -46,12 +46,5 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 * Ajouter les **plugins dans le dossier mods** via le WebFTP ou à l'aide d'un client FTP
 * Redémarrer le serveur
 
- ![:warning:](https://discord.com/assets/289673858e06dfa2e0e3a7ee610c3a30.svg) Seul des plugins sous l'**API SpongeForge** peuvent être installés 
-
- **Liens utiles:** 
-
-* [Mohist](https://mohistmc.com/)
-* Catserver
-* KCauldron
-* Thermos
+ ![:warning:](https://discord.com/assets/289673858e06dfa2e0e3a7ee610c3a30.svg) Seul des plugins sous l'**API SpongeForge** peuvent être installés.
 
