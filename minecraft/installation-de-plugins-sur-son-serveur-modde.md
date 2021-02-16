@@ -22,11 +22,11 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 **Les différents types de serveur:**
 
-* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible dans les versions **1.7.10, 1.12.2, 1.16.5**.
+* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2 et 1.16.5**.
 * \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**. 
-* **KCauldron:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
-* **Thermos:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
-* \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible dans les versions XXX.
+* **KCauldron:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**. 
+* **Thermos:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
+* \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible en **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 et 1.12.2**.
 
 _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura plus de nouvelles versions pour ces types de serveurs._
 
