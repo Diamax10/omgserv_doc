@@ -10,7 +10,7 @@ description: >-
 
 Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** critères:
 
-* Avoir la même version de jeu
+* Avoir la même version de jeu.
 * Utiliser des plugins fonctionnats avec le type de serveur choisi selon l'**API** avec lequel il fonctionne.
 
 **Une API ?** Qu'est ce que c'est ? Une API ou **A**pplication **P**rogramming **I**nterface c'est un logiciel intermédiaire permettant à deux applications de se parler. Chaque fois que vous utilisez une application comme Facebook, que vous envoyez un message instantané ou que vous vérifiez la météo sur votre téléphone, vous utilisez une API.
@@ -22,8 +22,8 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 **Les différents types de serveur:**
 
-* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX.
-* \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en 1.12.2. 
+* \*\*\*\*[**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible dans les versions **1.7.10, 1.12.2, 1.16.5**.
+* \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**. 
 * **KCauldron:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
 * **Thermos:** adpaté à l'API Bukkit-Spigot, disponible dans les versions XXX. 
 * \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible dans les versions XXX.
