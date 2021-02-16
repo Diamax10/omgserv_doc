@@ -33,7 +33,7 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 **Installation de Mohist, Catserver, KCauldron et Thermos:**
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
-* \( Pour KCauldron et Thermos: laisser Java 7 dans l'onglet **Propriétés**\) 
+* \( Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés**\) 
 * Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins via le WebFTP ou à l'aide d'un client FTP
 * Redémarrer le serveur afin que les plugins prennent effets.
 
