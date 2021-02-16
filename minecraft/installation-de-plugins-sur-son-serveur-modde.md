@@ -37,7 +37,7 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 * Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins via le WebFTP ou à l'aide d'un client FTP
 * Redémarrer le serveur afin que les plugins prennent effets.
 
-![:warning:](https://discord.com/assets/289673858e06dfa2e0e3a7ee610c3a30.svg) Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.
+:warning: Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.
 
  **Installer SpongeForge:**
 
@@ -46,5 +46,5 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 * Ajouter les **plugins dans le dossier mods** via le WebFTP ou à l'aide d'un client FTP
 * Redémarrer le serveur
 
- ![:warning:](https://discord.com/assets/289673858e06dfa2e0e3a7ee610c3a30.svg) Seul des plugins sous l'**API SpongeForge** peuvent être installés.
+ :warning: Seul des plugins sous l'**API SpongeForge** peuvent être installés.
 
