@@ -39,8 +39,6 @@ _Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura pl
 
 ![:warning:](https://discord.com/assets/289673858e06dfa2e0e3a7ee610c3a30.svg) Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.
 
-
-
  **Installer SpongeForge:**
 
 * Utiliser l'outil de réinstallation de OMGSERV
