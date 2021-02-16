@@ -45,7 +45,8 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 * Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins via le WebFTP ou à l'aide d'un client FTP
 * Redémarrer le serveur afin que les plugins prennent effets.
 
-:warning: Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.
+:warning: Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.  
+Il faut savoir aussi que les plugins influants sur les blocs comme WorldEdit peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.
 
  **Installer SpongeForge:**
 
