@@ -46,7 +46,7 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 * Redémarrer le serveur afin que les plugins prennent effets.
 
 :warning: Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.  
-Il faut savoir aussi que les plugins influants sur les blocs comme WorldEdit peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.
+`Il faut savoir aussi que les plugins influants sur les blocs comme WorldEdit peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.`
 
  **Installer SpongeForge:**
 
