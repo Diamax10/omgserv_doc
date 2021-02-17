@@ -11,6 +11,7 @@
 * [Ajout d'un monde personnalisé](minecraft/upload-une-map.md)
 * [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
 * [Optimiser son serveur Minecraft](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
+* [Mes mobs sont passifs](minecraft/mes-mobs-sont-passifs.md)
 * [Mettre une whitelist sur un serveur acceptant les versions crack](minecraft/whitelist-en-crack.md)
 * [Comment partager ses logs Minecraft ?](minecraft/comment-partager-ses-logs-minecraft.md)
 * [Sauvegarde et restauration de son serveur OMGSERV](minecraft/sauvegarde-et-restauration.md)
