@@ -15,7 +15,9 @@ Que vous soyez en Vanilla ou avec des mods ou bien avec des plugins, **lors d'un
 
 Par exemple entre la 1.15 et la 1.16 il y a des gros changements dans le nether donc afin de profiter pleinement de ces modifications, il est nécessaire du supprimer le monde afin de le réinitialiser avec la nouvelle version.
 
-⚠ **Cependant**, supprimer le monde veut dire **perte de toutes les constructions** effectuées dessus, ce qui peut être embêtant lors d'une survie en solo ou entre amis. Il faut savoir que les chunks non découverts par les joueurs, lorsqu'ils le seront, seront automatiquement généré avec la nouvelle version et donc les nouveaux blocs.
+{% hint style="danger" %}
+**Cependant**, supprimer le monde veut dire **perte de toutes les constructions** effectuées dessus, ce qui peut être embêtant lors d'une survie en solo ou entre amis. Il faut savoir que les chunks non découverts par les joueurs, lorsqu'ils le seront, seront automatiquement généré avec la nouvelle version et donc les nouveaux blocs.
+{% endhint %}
 
 > Donc si vous ne souhaitez pas perdre vos constructions mais que vous souhaitez avoir les nouveaux blocs, il faut aller dans des chunks non découverts avec la précédente version \(souvent loin de votre point d'apparition\).
 
@@ -57,7 +59,9 @@ Whether you are in Vanilla or with mods or plugins, **when you change Minecraft 
 
 For example between 1.15 and 1.16 there are big changes in the nether so in order to take full advantage of these changes, it is necessary to remove the world in order to reset it with the new version.
 
-⚠ **However**, deleting the world means **loss of all constructions** made on it, which can be annoying when surviving alone or with friends. You should know that chunks not discovered by the players, when they will be, will be automatically generated with the new version and thus the new blocks.
+{% hint style="danger" %}
+**However**, deleting the world means **loss of all constructions** made on it, which can be annoying when surviving alone or with friends. You should know that chunks not discovered by the players, when they will be, will be automatically generated with the new version and thus the new blocks.
+{% endhint %}
 
 > So if you don't want to lose your constructions but you want to have the new blocks, you have to go to chunks undiscovered with the previous version \(often far from your spawn point\).
 

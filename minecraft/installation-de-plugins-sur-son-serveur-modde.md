@@ -42,7 +42,7 @@ Les projets KCauldron, Thermos et SpongeForge sont à l'abandon, il n'y aura plu
 
 Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-dessous !
 
-### Installer Mohist, Catserver, KCauldron ou Thermos:
+### Installer Mohist, Catserver, KCauldron ou Thermos
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
 * \( Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés**\) 
@@ -54,7 +54,7 @@ Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** 
 Il faut savoir aussi que les plugins influants sur les blocs comme **WorldEdit** peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.
 {% endhint %}
 
-###  **Installer SpongeForge:**
+###  **Installer SpongeForge**
 
 * Utiliser l'outil de réinstallation de OMGSERV
 * Ajouter les **mods** dans le dossier Mods via le WebFTP ou à l'aide d'un client FTP

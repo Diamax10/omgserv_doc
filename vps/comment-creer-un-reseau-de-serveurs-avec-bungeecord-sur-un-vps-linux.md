@@ -35,7 +35,15 @@ Afin d'avoir les fichiers de configuration par défaut, il faut allumer au moins
 java -Xms128M -Xmx512M -jar BungeeCord.jar
 ```
 
-> Pour information, un proxy Bungeecord ne consomme pas énormément de RAM, c'est plus le CPU et la bande passante qui seront sollicités. Il faut donc mieux avoir un très bon CPU et peu de RAM. La consommation de RAM va dépendre du nombre de plugin installés sur le proxy, plus il y aura de plugin, plus cela consommera de la RAM et naturellement du CPU. On estime qu'avec un proxy sans aucun plugin un consommation de 1Mo de RAM par joueur, donc si vous souhaitez avoir 500 joueurs, un peu plus de 500Mo de RAM sera nécessaire \(bien sûr ces données sont purement indicatives et dépendent de pleins de critères\).
+{% hint style="info" %}
+Un proxy Bungeecord ne consomme pas énormément de RAM, c'est plus le CPU et la bande passante qui seront sollicités. Il faut donc mieux avoir un très bon CPU et peu de RAM. 
+
+La consommation de RAM va dépendre du nombre de plugin installés sur le proxy, plus il y aura de plugin, plus cela consommera de la RAM et naturellement du CPU. 
+
+On estime qu'avec un proxy sans aucun plugin un consommation de 1Mo de RAM par joueur, donc si vous souhaitez avoir 500 joueurs, un peu plus de 500Mo de RAM sera nécessaire \(bien sûr ces données sont purement indicatives et dépendent de pleins de critères\).
+{% endhint %}
+
+
 
 ## Configuration
 

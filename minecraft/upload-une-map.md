@@ -4,8 +4,6 @@ description: Comment mettre un monde personnel sur son serveur Minecraft ?
 
 # Ajout d'un monde personnalisé
 
-**Mettre un monde sur son serveur Minecraft:**
-
 Dans le cas où nous travaillons sur un monde nommée **world** par défaut.
 
 * Coupez votre serveur Minecraft.
@@ -14,11 +12,11 @@ Dans le cas où nous travaillons sur un monde nommée **world** par défaut.
 * Supprimez le dossier world existant.
 * Transférez le nouveau dossier à la racine du FTP.
 
+{% hint style="danger" %}
 **Attention !** Cela supprime la map existante actuellement, pour la garder, effectuez une sauvegarde au préalable.
+{% endhint %}
 
 ## English version
-
-**Put a world on your Minecraft server:**
 
 In case we are working on a world named **world** by default.
 
@@ -28,5 +26,7 @@ In case we are working on a world named **world** by default.
 * Delete the existing world folder.
 * Transfer the new folder to the FTP root.
 
+{% hint style="danger" %}
 **Be careful !** This deletes the existing map, to keep it, make a backup beforehand.
+{% endhint %}
 
