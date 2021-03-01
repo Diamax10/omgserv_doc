@@ -11,14 +11,14 @@ description: >-
 * Debian 10 \(Buster\)
 * Un accès SSH au serveur \([tutoriel](https://www.omgserv.com/fr/faq-vps/comment_me_connecter_en_ssh__mon_vps-104/)\)
 
-Si vous n'avez pas les pré-requis cités ci-dessus le script ne pourra fonctionner. Pour installer Debian 10 sur votre VPS, dirigez vous sur l'onglet "Réinstallation" sur votre panel. Les identifiants de connexion SSH vous seront envoyés par mail à la suite de l'installation \(vérifier vos spams\).
+Si vous n'avez pas les prérequis cités ci-dessus le script ne pourra fonctionner. Pour installer Debian 10 sur votre VPS, dirigez-vous sur l'onglet "Réinstallation" sur votre panel. Les identifiants de connexion SSH vous seront envoyés par mail à la suite de l'installation \(vérifier vos spams\).
 
 ### Utilisation du script
 
 Une fois connecté en SSH sur le serveur, collez la ligne de commande ci-dessous et appuyez sur entrée pour l'exécuter.
 
 ```bash
-sudo wget -P /opt https://github.com/zendrique/mc-script/releases/download/1.4/boot.sh && sudo bash /opt/boot.sh
+wget https://github.com/zendrique/mc-script/releases/download/1.5/boot.sh && bash boot.sh
 ```
 
 {% hint style="info" %}
