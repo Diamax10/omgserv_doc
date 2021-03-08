@@ -16,13 +16,13 @@ Java n'est pas forcément installé par défaut sur les système Linux, pour vé
 
 {% tabs %}
 {% tab title="Debian 9" %}
-```text
+```bash
 sudo apt update && sudo apt install openjdk-8-jre
 ```
 {% endtab %}
 
 {% tab title="Debian 10" %}
-```text
+```bash
 sudo apt update &&
 sudo apt install -y apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common &&
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - &&
@@ -32,7 +32,7 @@ sudo apt update && sudo apt install adoptopenjdk-8-hotspot
 {% endtab %}
 
 {% tab title="Ubuntu 18.04 & 20.04" %}
-```text
+```bash
 sudo apt update && sudo apt install openjdk-8-jre
 ```
 {% endtab %}
@@ -42,13 +42,13 @@ sudo apt update && sudo apt install openjdk-8-jre
 
 {% tabs %}
 {% tab title="Debian 9 & 10" %}
-```
+```bash
 sudo apt update && sudo apt install openjdk-11-jre
 ```
 {% endtab %}
 
 {% tab title="Ubuntu 18.04 & 20.04" %}
-```
+```bash
 sudo apt update && sudo apt install openjdk-11-jre
 ```
 {% endtab %}

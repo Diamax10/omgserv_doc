@@ -16,7 +16,7 @@ Rédaction en cours
 
 Rédaction en cours
 
-```text
+```bash
 sudo apt update && sudo apt install rsyslog fail2ban
 ```
 
