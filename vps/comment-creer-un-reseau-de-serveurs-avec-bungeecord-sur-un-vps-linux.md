@@ -14,13 +14,12 @@ Par exemple, vous avez 2 serveurs Minecraft, imaginons un serveur survie et un s
 
 ## Installation
 
-Dans ce tutoriel je pars du principe que vous avez un VPS, **configuré**, **sécurisé** et avec **Java d'installé**. Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
+Dans ce tutoriel je pars du principe que vous avez un VPS, **configuré**, [**sécurisé**](https://docs.idelya-network.fr/vps/securiser-son-vps-linux) et avec [**Java d'installé**](https://docs.idelya-network.fr/vps/installer-java-sur-son-vps). Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
 
 Commençons par créer un dossier qui contiendra les fichiers de notre proxy:
 
 ```text
-mkdir proxy
-cd proxy
+mkdir proxy && cd proxy
 ```
 
 Ensuite, nous téléchargeons la dernière version de Bungeecord sur le site officiel. Généralement il faut directement aller chercher le fichier .jar sur la CI du projet qui se trouve ici : [https://ci.md-5.net/job/BungeeCord/](https://ci.md-5.net/job/BungeeCord/) Il faut prendre le _"Derniers artefacts construits avec succès"_ nommé `BungeeCord.jar`.
@@ -45,7 +44,22 @@ On estime qu'avec un proxy sans aucun plugin un consommation de 1Mo de RAM par j
 
 ## Configuration
 
-Par défaut Bungeecord écoute sur le port `TCP 25577` qui n'est pas le port par défaut de Minecraft, c'est à dire que pour se connecter au Bungeecord, il faudra saisir dans Minecraft `adresseIP:25577` ce qui peut être embêtant dans certaines conditions.
+Par défaut Bungeecord écoute sur le port `TCP 25577` qui n'est pas le port par défaut de Minecraft, c'est à dire que pour se connecter au Bungeecord, il faudra saisir dans Minecraft `adresseIP:25577` ce qui peut être embêtant dans certaines conditions. En plus de modifier cela nous allons voir quelques autres options configurable.
 
-_Rédaction en cours_
+### config.yml
+
+Le fichier `config.yml` nous permet de modifier toute la configuration du proxy. Voici une liste des paramètres dans le désordre qui sont souvent modifiés, bien-sûr je vous invite à regarder aussi les autres paramètres.
+
+```yaml
+player-limit: -1 # Défini la limite de joueur sur le proxy (-1 étant illimité)
+online_mode: true # À mettre sur false si vous voulez accepter les cracks
+motd: 'Superbe serveur Bungeecord' # La description du serveur afficher dans la liste des serveurs Minecraft (outil pour en générer un facilement: https://mctools.org/motd-creator)
+host: 0.0.0.0:25565 # La valeur 0.0.0.0 permet au serveur d'écouter sur toutes les IP (conseillé), la partie après les deux points est le port d'écoute (ici 25565 étant celui de Minecraft par défaut)
+max_players: 200 # Nombre de joueurs max affiché dans la liste des serveurs Minecraft (mais n'est pas la limite réel, pour cela voir le paramètre player-limit)
+force_default_server: true # Mettre à true si vous voulez que le joueur soit redirigé à la connexion vers le premier serveur disponible défini dans priorities
+ip_forward: true # Je conseille de mettre à true, nous verrons dans la suite à quoi ça sert
+log_pings: false # Je conseille de mettre à false car ceci peut vite spam la console
+```
+
+
 
