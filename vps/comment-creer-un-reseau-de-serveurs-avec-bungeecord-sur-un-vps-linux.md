@@ -18,19 +18,19 @@ Dans ce tutoriel je pars du principe que vous avez un VPS, **configuré**, [**s�
 
 Commençons par créer un dossier qui contiendra les fichiers de notre proxy:
 
-```text
+```bash
 mkdir proxy && cd proxy
 ```
 
 Ensuite, nous téléchargeons la dernière version de Bungeecord sur le site officiel. Généralement il faut directement aller chercher le fichier .jar sur la CI du projet qui se trouve ici : [https://ci.md-5.net/job/BungeeCord/](https://ci.md-5.net/job/BungeeCord/) Il faut prendre le _"Derniers artefacts construits avec succès"_ nommé `BungeeCord.jar`.
 
-```text
+```bash
 wget https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar
 ```
 
 Afin d'avoir les fichiers de configuration par défaut, il faut allumer au moins une fois le proxy.
 
-```text
+```bash
 java -Xms128M -Xmx512M -jar BungeeCord.jar
 ```
 
