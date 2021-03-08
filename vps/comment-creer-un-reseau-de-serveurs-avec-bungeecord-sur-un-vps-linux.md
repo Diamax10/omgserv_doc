@@ -51,14 +51,34 @@ Par défaut Bungeecord écoute sur le port `TCP 25577` qui n'est pas le port par
 Le fichier `config.yml` nous permet de modifier toute la configuration du proxy. Voici une liste des paramètres dans le désordre qui sont souvent modifiés, bien-sûr je vous invite à regarder aussi les autres paramètres.
 
 ```yaml
-player-limit: -1 # Défini la limite de joueur sur le proxy (-1 étant illimité)
-online_mode: true # À mettre sur false si vous voulez accepter les cracks
-motd: 'Superbe serveur Bungeecord' # La description du serveur afficher dans la liste des serveurs Minecraft (outil pour en générer un facilement: https://mctools.org/motd-creator)
-host: 0.0.0.0:25565 # La valeur 0.0.0.0 permet au serveur d'écouter sur toutes les IP (conseillé), la partie après les deux points est le port d'écoute (ici 25565 étant celui de Minecraft par défaut)
-max_players: 200 # Nombre de joueurs max affiché dans la liste des serveurs Minecraft (mais n'est pas la limite réel, pour cela voir le paramètre player-limit)
-force_default_server: true # Mettre à true si vous voulez que le joueur soit redirigé à la connexion vers le premier serveur disponible défini dans priorities
-ip_forward: true # Je conseille de mettre à true, nous verrons dans la suite à quoi ça sert
-log_pings: false # Je conseille de mettre à false car ceci peut vite spam la console
+# Défini la limite de joueur sur le proxy (-1 étant illimité)
+player-limit: -1
+
+# À mettre sur false si vous voulez accepter les cracks
+online_mode: true
+
+# La description du serveur afficher dans la liste des serveurs Minecraft
+# (outil pour en générer un facilement: https://mctools.org/motd-creator)
+motd: 'Superbe serveur Bungeecord'
+
+# La valeur 0.0.0.0 permet au serveur d'écouter sur toutes les IP (conseillé),
+# la partie après les deux points est le port d'écoute (ici 25565 étant celui de Minecraft par défaut)
+host: 0.0.0.0:25565
+
+# Nombre de joueurs max affiché dans la liste des serveurs Minecraft
+# (mais n'est pas la limite réel, pour cela voir le paramètre player-limit)
+max_players: 200
+
+# Mettre à true si vous voulez que le joueur soit redirigé à la connexion vers 
+# le premier serveur disponible défini dans priorities
+force_default_server: true
+
+# Je conseille de mettre à true, nous verrons dans la suite à quoi ça sert
+ip_forward: true 
+
+# Je conseille de mettre à false car ceci peut vite spam la console, pour faire simple
+# à chaque fois qu'un joueur rafraîchira sa liste de serveur, ça mettra un message
+log_pings: false 
 ```
 
 
