@@ -20,6 +20,8 @@
 ## VPS
 
 * [Créer un réseau de serveurs avec Bungeecord sur un VPS Linux](vps/comment-creer-un-reseau-de-serveurs-avec-bungeecord-sur-un-vps-linux.md)
+* [Sécuriser son VPS Linux](vps/securiser-son-vps-linux.md)
+* [Installer Java sur son VPS](vps/installer-java-sur-son-vps.md)
 * [Script automatique de création d'un serveur Minecraft](vps/script-automatique-de-creation-dun-serveur-minecraft.md)
 
 ## Autre

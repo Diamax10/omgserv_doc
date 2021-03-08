@@ -14,7 +14,7 @@ Par exemple, vous avez 2 serveurs Minecraft, imaginons un serveur survie et un s
 
 ## Installation
 
-Dans ce tutoriel je pars du principe que vous avez un VPS, configuré, sécurisé et avec Java d'installé. Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
+Dans ce tutoriel je pars du principe que vous avez un VPS, **configuré**, **sécurisé** et avec **Java d'installé**. Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
 
 Commençons par créer un dossier qui contiendra les fichiers de notre proxy:
 
@@ -43,9 +43,9 @@ La consommation de RAM va dépendre du nombre de plugin installés sur le proxy,
 On estime qu'avec un proxy sans aucun plugin un consommation de 1Mo de RAM par joueur, donc si vous souhaitez avoir 500 joueurs, un peu plus de 500Mo de RAM sera nécessaire \(bien sûr ces données sont purement indicatives et dépendent de pleins de critères\).
 {% endhint %}
 
-
-
 ## Configuration
 
-_Rédaction en cours ..._
+Par défaut Bungeecord écoute sur le port `TCP 25577` qui n'est pas le port par défaut de Minecraft, c'est à dire que pour se connecter au Bungeecord, il faudra saisir dans Minecraft `adresseIP:25577` ce qui peut être embêtant dans certaines conditions.
+
+_Rédaction en cours_
 
