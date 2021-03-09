@@ -14,7 +14,7 @@ Par exemple, vous avez 2 serveurs Minecraft, imaginons un serveur survie et un s
 
 ## Installation
 
-Dans ce tutoriel je pars du principe que vous avez un VPS, **configuré**, [**sécurisé**](https://docs.idelya-network.fr/vps/securiser-son-vps-linux) et avec [**Java d'installé**](https://docs.idelya-network.fr/vps/installer-java-sur-son-vps). Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
+Dans ce tutoriel nous partons du principe que vous avez un VPS, **configuré**, [**sécurisé**](https://docs.idelya-network.fr/vps/securiser-son-vps-linux) et avec [**Java d'installé**](https://docs.idelya-network.fr/vps/installer-java-sur-son-vps). Ce tutoriel a été rédigé avec une distribution comme Debian ou Ubuntu.
 
 Commençons par créer un dossier qui contiendra les fichiers de notre proxy:
 
@@ -48,7 +48,7 @@ Par défaut Bungeecord écoute sur le port `TCP 25577` qui n'est pas le port par
 
 ### config.yml
 
-Le fichier `config.yml` nous permet de modifier toute la configuration du proxy. Voici une liste des paramètres dans le désordre qui sont souvent modifiés, bien-sûr je vous invite à regarder aussi les autres paramètres.
+Le fichier `config.yml` nous permet de modifier toute la configuration du proxy. Voici une liste des paramètres dans le désordre qui sont souvent modifiés, bien-sûr nous vous invitons à regarder aussi les autres paramètres.
 
 ```yaml
 # Défini la limite de joueur sur le proxy (-1 étant illimité)
@@ -73,10 +73,10 @@ max_players: 200
 # le premier serveur disponible défini dans priorities
 force_default_server: true
 
-# Je conseille de mettre à true, nous verrons dans la suite à quoi ça sert
+# Nous conseillons de mettre à true, nous verrons dans la suite à quoi ça sert
 ip_forward: true 
 
-# Je conseille de mettre à false car ceci peut vite spam la console, pour faire simple
+# Nous conseillons de mettre à false car ceci peut vite spam la console, pour faire simple
 # à chaque fois qu'un joueur rafraîchira sa liste de serveur, ça mettra un message
 log_pings: false 
 ```
