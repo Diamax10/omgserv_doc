@@ -1,6 +1,6 @@
 ---
 description: >-
-  Beaucoup d'utilisateur de VPS Linux débutent dans l'univers UNIX et ne savent
+  Beaucoup d'utilisateurs de VPS Linux débutent dans l'univers UNIX et ne savent
   pas sécuriser leur VPS contre des menaces basiques d'Internet.
 ---
 
