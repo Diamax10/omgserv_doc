@@ -27,7 +27,7 @@ Une fois cela fait, votre VPS est déjà sécurisé. Toutefois, vous pouvez édi
 * `maxretry`: nombre d'échecs d'authentification autorisés \(par exemple: 5\) mais attention à ne pas mettre une valeur trop faible au risque de vous bannir vous-même si vous faites une erreur.
 
 {% hint style="warning" %}
-Dans la configuration par défaut, ces lignes sont commentés par un `#` donc pour qu'elles soient effective, il faut enlever le `#`.
+Dans la configuration par défaut, ces lignes sont commentées par un `#` donc pour qu'elles soient effectives, il faut enlever le `#`.
 {% endhint %}
 
 Si vous le souhaitez vous pouvez regarder les autres paramètres, ainsi que la documentation de l'application pour avoir une configuration plus avancée.
