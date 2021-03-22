@@ -4,7 +4,7 @@ description: >-
   d'autres personnes aussi passionnées que nous.
 ---
 
-# Accueil
+# Homepage
 
 Bienvenue sur la documentation communautaire d'Idelya Network !
 

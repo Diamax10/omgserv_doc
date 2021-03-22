@@ -1,18 +1,18 @@
 ---
 description: >-
-  Il existe pleins de tutoriels sur Internet pour installer Java sur un système
-  Linux mais ici nous les rassemblons tous.
+  There are plenty of tutorials on the Internet to install Java on a Linux
+  system but here we gather them all.
 ---
 
-# Installer Java sur son VPS
+# Install Java on your VPS
 
 ### Introduction
 
-Java n'est pas forcément installé par défaut sur les système Linux, pour vérifier cela il suffit d'exécuter la commande `java -version` si Java n'est installé le système vous dira quelque chose du style `java: command not found` sinon il vous affichera la version installée et utiliser par défaut. Par exemple Java 8 sera noté `1.8.0`, Java 11 `1.11.0` ou `11.0`, etc.
+Java is not necessarily installed by default on Linux systems, to check this just run the command `java -version` if Java is not installed the system will tell you something like `java: command not found` otherwise it will show you the version installed and use by default. For example Java 8 will be noted `1.8.0`, Java 11 `1.11.0` or `11.0`, etc.
 
 ## Installation
 
-### Java 8 \(jusqu'à Minecraft 1.16\)
+### Java 8 \(up to Minecraft 1.16\)
 
 {% tabs %}
 {% tab title="Debian 9" %}
@@ -38,7 +38,7 @@ sudo apt update && sudo apt install openjdk-8-jre
 {% endtab %}
 {% endtabs %}
 
-### Java 11 \(à partir de Minecraft 1.17\)
+### Java 11 \(since Minecraft 1.17\)
 
 {% tabs %}
 {% tab title="Debian 9 & 10" %}
