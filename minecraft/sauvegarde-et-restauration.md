@@ -21,20 +21,3 @@ description: >-
 * Il est possible de restaurer totalement ou partiellement en choisissant des dossiers particliuer, à vous de voir.
 * Plus qu'à redémarrer et jouer ! 
 
-## English version
-
-### Make a backup
-
-* Make the backup in the **Backups** tab.
-* Lock it by clicking on the **small dots** and then on **edit** \(this ensures that nothing can delete it unless you delete it manually\).
-* Optional: download it to your computer or send it to a GoogleDrive for example.
-* Optional: reinstall the server in the reinstall tab if you want to change server.
-* Have fun :D
-
-### Restore your backup
-
-* Just go back to the **Backup** tab.
-* Click on the old backup \(click on the small dots\). 
-* It is possible to restore totally or partially by choosing particular folders, it's up to you.
-* Just restart and play! 
-
