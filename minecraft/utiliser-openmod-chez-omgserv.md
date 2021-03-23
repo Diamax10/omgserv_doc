@@ -6,7 +6,7 @@ description: >-
 
 # Use Openmod on an OMGSERV server
 
-### Usage
+## Usage
 
 * Download the desired .jar on its **official website**.
 * Do a server reinstallation with the Openmod and drag the desired **.jar**.

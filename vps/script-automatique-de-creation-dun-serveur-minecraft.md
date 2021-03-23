@@ -6,14 +6,14 @@ description: >-
 
 # Script automatique de création d'un serveur Minecraft
 
-### Pré-requis:
+## Pré-requis:
 
 * Debian 10 \(Buster\)
 * Un accès SSH au serveur \([tutoriel](https://www.omgserv.com/fr/faq-vps/comment_me_connecter_en_ssh__mon_vps-104/)\)
 
 Si vous n'avez pas les prérequis cités ci-dessus le script ne pourra fonctionner. Pour installer Debian 10 sur votre VPS, dirigez-vous sur l'onglet "Réinstallation" sur votre panel. Les identifiants de connexion SSH vous seront envoyés par mail à la suite de l'installation \(vérifier vos spams\).
 
-### Utilisation du script
+## Utilisation du script
 
 Une fois connecté en SSH sur le serveur, collez la ligne de commande ci-dessous et appuyez sur entrée pour l'exécuter.
 
@@ -31,7 +31,7 @@ wget https://github.com/zendrique/mc-script/releases/download/1.5/boot.sh && bas
 
 Une fois la commande exécuter, le script **vous demandera votre mot de passe**, saisissez le. Cependant faites attention, lorsque vous tapez votre mot de passe il n'est pas visible "vous tapez à l'aveugle" ne soyez pas surpris. Une fois cela fait, suivez tout simplement les instructions affichées dans le terminal. **Lisez tout**, c'est important.
 
-### Accéder aux fichiers
+## Accéder aux fichiers
 
 Pour accéder aux fichiers de votre nouveau serveur afin de par exemple ajouter un plugin ou un mod, il faut vous connecter en SFTP.
 

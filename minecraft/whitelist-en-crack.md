@@ -2,7 +2,7 @@
 description: Tutorial for using the whitelist with a server that allows crack versions.
 ---
 
-# Put a whitelist on a server accepting crack versions
+# Turn on the whitelist on a server accepting crack versions
 
 For a new player:
 

@@ -1,19 +1,19 @@
 ---
-description: C'est un problème qui peut arriver avec les serveurs sous Spigot ou Paper.
+description: This is a problem that can happen with servers running Spigot or Paper.
 ---
 
-# Je n'arrive pas à changer la difficulté dans le Nether et l'End
+# I can't change the difficulty in the Nether and End
 
-Pour cela nous avons développé un plugin afin de corriger ce problème [disponible ici](https://www.spigotmc.org/resources/difficultyfixer.89415/). Pour l'utiliser rien de plus simple, suivez les instructions ci-dessous:
+For this we have developed a plugin to correct this problem [available here](https://www.spigotmc.org/resources/difficultyfixer.89415/). To use it, just follow the instructions below:
 
-* Mettez le plugin dans le dossier `plugins` de votre serveur
-* Redémarrez votre serveur
-* Regardez dans la console quels mondes le plugin a changé la difficulté, il doit afficher un message du type :
-  * `[DifficultyFixer] Difficulty of world_nether changed to NORMAL`
-* Une fois cela fait, vous pouvez supprimer le plugin de votre dossier `plugins`.
-* Normalement maintenant vos mondes Nether et End sont synchronisés avec la difficulté du monde normal.
+* Put the plugin in the plugins folder of your server 
+* Restart your server 
+* Look in the console which worlds the plugin has changed the difficulty, it should display a message like : 
+  * `[DifficultyFixer] Difficulty of world_nether changed to NORMAL` 
+* Once this is done you can delete the plugin from your plugins folder. 
+* Normally now your Nether and End worlds are synchronized with the difficulty of the normal world.
 
 {% hint style="danger" %}
-Si vous utilisez un plugin de gestion de monde comme **Multiverse Core**, le plugin ne sert à rien, il n'arrivera pas à modifier la difficulté du monde. Pour cela, référez-vous à la documentation de votre plugin, il doit y avoir des commandes spécifiques pour changer la difficulté des mondes.
+If you use a world management plugin like **Multiverse Core**, the plugin is useless, it will not be able to change the difficulty of the world. For that, refer to the documentation of your plugin, there must be specific commands to change the difficulty of the worlds.
 {% endhint %}
 

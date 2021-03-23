@@ -6,7 +6,7 @@ description: >-
 
 # Install Forge via Openmod
 
-### Installation
+## Installation
 
 * Download on [Forge's website](http://files.minecraftforge.net) the desired version of Forge \(example: 1.12.2-14.23.5.2838\).
 * Install Forge in server version, take care to enter an empty installation folder \(see the capture below\).
@@ -14,7 +14,7 @@ description: >-
 * Drag **both `.jar` \(server and client\), the `libraries` folder and the `.json` file** that will have been extracted previously.
 * Set the **.jar client** as **.jar startup** \(OMGSERV requires it\).
 
-### Configuration
+## Configuration
 
 * Start the server. If it does not start, make sure that Java 8 is enabled in the panel **properties**.
 * Wait for the server to turn on completely \(see the console if necessary\) then turn off the server.

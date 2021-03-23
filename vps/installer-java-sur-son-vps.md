@@ -6,7 +6,7 @@ description: >-
 
 # Install Java on your VPS
 
-### Introduction
+## Introduction
 
 Java is not necessarily installed by default on Linux systems, to check this just run the command `java -version` if Java is not installed the system will tell you something like `java: command not found` otherwise it will show you the version installed and use by default. For example Java 8 will be noted `1.8.0`, Java 11 `1.11.0` or `11.0`, etc.
 

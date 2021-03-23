@@ -1,67 +1,66 @@
 ---
 description: >-
-  Dans ce tutoriel apprenez à installer des plugins facilement sur un serveur
-  Minecraft moddé.
+  In this tutorial learn how to install plugins easily on a modded Minecraft
+  server.
 ---
 
-# Installation de plugins sur son serveur moddé
+# Installation of plugins on its modded server
 
-Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** critères:
+To install plugins on a modded server, you have to take care of **two** criteria:
 
-* Avoir la même version de jeu.
-* Utiliser des plugins fonctionnants avec le type de serveur choisi selon l'**API** avec lequel il fonctionne.
+* Have the same version of the game.
+* Use plugins that work with the type of server chosen according to the **API** it works with.
 
-### Introduction
+## Introduction
 
 {% hint style="info" %}
-**Une API ?** Qu'est ce que c'est ? Une API ou **A**pplication **P**rogramming **I**nterface c'est un logiciel intermédiaire permettant à deux applications de se parler. Chaque fois que vous utilisez une application comme Facebook, que vous envoyez un message instantané ou que vous vérifiez la météo sur votre téléphone, vous utilisez une API.
+**An API?** What is an API? An API or Application Programming Interface is a middleware that allows two applications to talk to each other. Every time you use an application like Facebook, send an instant message or check the weather on your phone, you are using an API.
 {% endhint %}
 
-#### API existant:
+### Existing API
 
-* **API Bukkit-Spigot:** Les plugins téléchargés sur les sites officiels de Bukkit et de Spigot seront compatibles. 
-* **API SpongeForge:** Les plugins télécgargés sur le site officiel de SpongeForge seront compatible.
+* **API Bukkit-Spigot:** Plugins downloaded from the official Bukkit and Spigot websites will be compatible.
+* **API SpongeForge:** Plugins downloaded from the official SpongeForge website will be compatible.
 
-#### Les différents types de serveur:
+### The different types of server
 
-* [**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2 et 1.16.5**.
-* \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**. 
-* \*\*\*\*[**KCauldron**](https://sourceforge.net/projects/kcauldron/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**. 
-* \*\*\*\*[**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
-* \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible en **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 et 1.12.2**.
+* [**Mohist**](https://mohistmc.com/)**:** adapted to the Bukkit-Spigot API, available in **1.7.10, 1.12.2 and 1.16.5**.
+* \*\*\*\*[**Catserver**](https://catserver.moe/)**:** adapted to the Bukkit-Spigot API, available in **1.12.2**.
+* \*\*\*\*[**KCauldron**](https://sourceforge.net/projects/kcauldron/)**:** adapted to the Bukkit-Spigot API, available in **1.6.X and 1.7.10**.
+* \*\*\*\*[**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)**:** adapted to the Bukkit-Spigot API, available in **1.6.X and 1.7.10**.
+* \*\*\*\*[**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapted to the SpongeForge API, available in **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 and 1.12.2**.
 
 {% hint style="warning" %}
-Les projets KCauldron et Thermos sont à l'abandon, il n'y aura plus de nouvelles versions pour ces types de serveurs.
+The KCauldron and Thermos projects are abandoned, there will be no more new versions for these types of servers.
 {% endhint %}
 
-### Quel type de serveur choisir ?
+### What type of server should I choose?
 
-* Il faut commencer par regarder votre version de jeu. Par exemple, je suis en 1.12.2; je pourrai installer Mohist, Catserver ou bien SpongeForge.
-* Ensuite, je regarde mes besoins en plugins. Mes plugins viennent du site de Spigot donc je me dirige vers un type de serveur comme Mohist ou bien Catserver. 
-* Pour terminer, je vais prendre Mohist car celui-ci me convient le mieux \(choix personnel\). 
+* You should start by looking at your game version. For example, I am in 1.12.2; I could install Mohist, Catserver or SpongeForge.
+* Then I look at my plugin needs. My plugins come from the Spigot site so I'm going for a server type like Mohist or Catserver. 
+* Finally, I will take Mohist because it suits me best \(personal choice\).
 
-Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-dessous !
+And there you go, just follow the adapted installation tutorial available below!
 
-### Installer Mohist, Catserver, KCauldron ou Thermos
+## Install Mohist, Catserver, KCauldron or Thermos
 
-* Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
-* \(Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés**\) 
-* Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins via le WebFTP ou à l'aide d'un client FTP
-* Redémarrer le serveur afin que les plugins prennent effets.
+* Follow [this tutorial](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv) first.
+* For **KCauldron** and **Thermos**: keep **Java 7** in the Properties tab. 
+* Add the desired [plugins](https://www.omgserv.com/en/faq-minecraft/how_to_install_plugins_on_my_minecraft_server-82/) to the plugins folder via WebFTP or using a FTP client.
+* Restart the server so that the plugins take effect.
 
 {% hint style="warning" %}
-Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.  
-Il faut savoir aussi que les plugins influants sur les blocs comme **WorldEdit** peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.
+Only plugins that state that they are compatible with the **Bukkit-Spigot AP**I will work. You should also know that plugins that influence blocks like **WorldEdit** may not be 100% functional with respect to modded blocks.
 {% endhint %}
 
-###  **Installer SpongeForge**
+##  **Install SpongeForge**
 
-* Utiliser l'outil de réinstallation de OMGSERV
-* Ajouter les **mods** dans le dossier Mods via le WebFTP ou à l'aide d'un client FTP
-* Ajouter les **plugins dans le dossier mods** via le WebFTP ou à l'aide d'un client FTP
-* Redémarrer le serveur
+* Use the OMGSERV reinstallation tool.
+* Add mods to the `mods` folder via WebFTP or using an FTP client.
+* Add plugins to the `mods` folder via WebFTP or using an FTP client.
+* Restart the server.
 
 {% hint style="warning" %}
-Seul des plugins sous l'**API SpongeForge** peuvent être installés.
+Only plugins under the **SpongeForge API** can be installed.
 {% endhint %}
 
