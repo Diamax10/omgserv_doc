@@ -16,6 +16,7 @@
 * [Comment partager ses logs Minecraft ?](minecraft/comment-partager-ses-logs-minecraft.md)
 * [Sauvegarde et restauration de son serveur OMGSERV](minecraft/sauvegarde-et-restauration.md)
 * [Je n'arrive pas à changer la difficulté dans le Nether et l'End](minecraft/je-narrive-pas-a-changer-la-difficulte-dans-le-nether-et-lend.md)
+* [Accéder au FTP](minecraft/acceder-au-ftp.md)
 
 ## VPS
 
