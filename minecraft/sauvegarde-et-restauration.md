@@ -10,7 +10,7 @@ description: Tutorial for creating backups and restoring them via the OMGSERV pa
 * Lock it by clicking on the **small dots** and then on **edit** \(this ensures that nothing can delete it unless you delete it manually\).
 * Optional: download it to your computer or send it to a GoogleDrive for example.
 * Optional: reinstall the server in the reinstall tab if you want to change server.
-* Have fun :D
+* Have fun 😄
 
 ### Restore your backup
 
