@@ -8,6 +8,7 @@
 * [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
 * [Installation de plugins sur son serveur moddé](minecraft/installation-de-plugins-sur-son-serveur-modde.md)
+* [Accéder au FTP](minecraft/acceder-au-ftp.md)
 * [Ajout d'un monde personnalisé](minecraft/upload-une-map.md)
 * [Dois-je supprimer mon monde ?](minecraft/dois-je-supprimer-mon-monde.md)
 * [Optimiser son serveur Minecraft](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)
@@ -16,7 +17,6 @@
 * [Comment partager ses logs Minecraft ?](minecraft/comment-partager-ses-logs-minecraft.md)
 * [Sauvegarde et restauration de son serveur OMGSERV](minecraft/sauvegarde-et-restauration.md)
 * [Je n'arrive pas à changer la difficulté dans le Nether et l'End](minecraft/je-narrive-pas-a-changer-la-difficulte-dans-le-nether-et-lend.md)
-* [Accéder au FTP](minecraft/acceder-au-ftp.md)
 
 ## VPS
 
