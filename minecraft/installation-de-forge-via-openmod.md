@@ -20,7 +20,7 @@ description: >-
 
 * Démarrez le serveur. Si celui ne démarre pas, vérifiez que Java 8 est activé dans les **propriétés** du panel.
 * Attendre que le serveur s'allume complètement \(voir la console si besoin\) puis éteindre le serveur.
-* Se connecter en FTP sur le serveur avec un client FTP comme [FileZilla](https://filezilla-project.org/download.php?type=client) \([tutoriel](https://www.omgserv.com/fr/faq-minecraft/comment_cr_er_et_utiliser_mon_acc_s_ftp-66/)\) \(ou avec le WebFTP mais ceci est déconseillé car beaucoup de bugs\).
+* Se connecter en FTP sur le serveur avec un client FTP comme [FileZilla](https://filezilla-project.org/download.php?type=client) \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\) \(ou avec le WebFTP mais ceci est déconseillé car beaucoup de bugs\).
 * Glisser les mods dans le dossier `mods`, ainsi que la configuration s’il y en a une. 
 * Supprimez le dossier `world` pour réinitialiser la map \(:warning: ceci aura pour conséquence de supprimer tout ce qui est présent sur la map, plus d'information avec [ce tutoriel](https://docs.idelya-network.fr/minecraft/dois-je-supprimer-mon-monde)\).
 * Enfin, vous pouvez démarrer votre serveur et si tout à bien été fait \(mods compatible entre eux, tous les fichiers présents et bonne version de Forge\) normalement vous devriez avoir votre serveur Minecraft avec vos mods.

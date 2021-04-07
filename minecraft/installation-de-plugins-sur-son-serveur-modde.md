@@ -46,7 +46,7 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
 * \(Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés**\) 
-* Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins via le WebFTP ou à l'aide d'un client FTP
+* Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins à l'aide d'un client FTP \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\)
 * Redémarrer le serveur afin que les plugins prennent effets.
 
 {% hint style="warning" %}
@@ -57,8 +57,8 @@ Il faut savoir aussi que les plugins influants sur les blocs comme **WorldEdit**
 ###  **Installer SpongeForge**
 
 * Utiliser l'outil de réinstallation de OMGSERV
-* Ajouter les **mods** dans le dossier Mods via le WebFTP ou à l'aide d'un client FTP
-* Ajouter les **plugins dans le dossier mods** via le WebFTP ou à l'aide d'un client FTP
+* Ajouter les **mods** dans le dossier Mods à l'aide d'un client FTP \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\)
+* Ajouter les **plugins dans le dossier mods** à l'aide d'un client FTP
 * Redémarrer le serveur
 
 {% hint style="warning" %}
