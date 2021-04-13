@@ -22,6 +22,6 @@ description: >-
 * Attendre que le serveur s'allume complètement \(voir la console si besoin\) puis éteindre le serveur.
 * Se connecter en FTP sur le serveur avec un client FTP comme [FileZilla](https://filezilla-project.org/download.php?type=client) \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\) \(ou avec le WebFTP mais ceci est déconseillé car beaucoup de bugs\).
 * Glisser les mods dans le dossier `mods`, ainsi que la configuration s’il y en a une. 
-* Supprimez le dossier `world` pour réinitialiser la map \(:warning: ceci aura pour conséquence de supprimer tout ce qui est présent sur la map, plus d'information avec [ce tutoriel](https://docs.idelya-network.fr/minecraft/dois-je-supprimer-mon-monde)\).
+* Supprimez le dossier `world` pour réinitialiser la map \(⚠️ ceci aura pour conséquence de supprimer tout ce qui est présent sur la map, plus d'information avec [ce tutoriel](https://docs.idelya-network.fr/minecraft/dois-je-supprimer-mon-monde)\).
 * Enfin, vous pouvez démarrer votre serveur et si tout à bien été fait \(mods compatible entre eux, tous les fichiers présents et bonne version de Forge\) normalement vous devriez avoir votre serveur Minecraft avec vos mods.
 
