@@ -45,7 +45,7 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 ### Installer Mohist, Catserver, KCauldron ou Thermos
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
-* \(Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés**\) 
+* \(Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés** et passer en Java 11 pour **Mohist** 1.16 et plus\) 
 * Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment_installer_un_plugin_sur_mon_serveur-65/)voulus dans le dossier plugins à l'aide d'un client FTP \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\)
 * Redémarrer le serveur afin que les plugins prennent effets.
 
