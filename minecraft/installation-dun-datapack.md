@@ -11,7 +11,7 @@ Un datapack permet de modifier certain aspect du jeu comme la génération, les 
 {% hint style="info" %}
 Les datapck son uniquement disposible pour les version 1.13 et supérieurs de minecraft.
 
-Un datapck se presente sous la forme d'un fichier zip
+Un datapck se presente sous la forme d'un fichier zip.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -20,7 +20,7 @@ Un datapack n'est pas un plugins ou un mod et permet moins de choses que les plu
 
 ## Installation d'un datapack
 
-Dans un premier temps, vous allez devoir récupère le nom de votre map. Pour se voir vous devez vous rendre sur **votre panel** ensuite vous rendre dans l'onglet **propriétés.** Une fois sur cette page vous devez localiser la partie nommé "**Nom de la map**" \(voire image ci-dessous\)
+Dans un premier temps, vous allez devoir récupère le nom de votre map. Pour se voir vous devez vous rendre sur **votre panel** ensuite vous rendre dans l'onglet **propriétés.** Une fois sur cette page vous devez localiser la partie nommé "**Nom de la map**" \(voire image ci-dessous\).
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
