@@ -1,5 +1,5 @@
 ---
-description: Dans ce tutoriel vous aller apprendre à installer un datapack
+description: Dans ce tutoriel vous allez apprendre à installer un datapack
 ---
 
 # Installation d'un datapack
