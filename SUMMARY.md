@@ -4,6 +4,7 @@
 
 ## Minecraft
 
+* [Installation d'un datapack](minecraft/installation-dun-datapack.md)
 * [Installation de Forge via l'installateur automatique](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
