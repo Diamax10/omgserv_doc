@@ -1,21 +1,21 @@
 ---
-description: Dans ce tutoriel vous allez apprendre à installer un datapack
+description: 'Dans ce tutoriel, apprenez à installer un datapack sur votre serveur Minecraft'
 ---
 
 # Installation d'un datapack
 
 ## Un datapack qu'est-ce que c'est ?
 
-Un datapack permet de modifier certain aspect du jeu comme la génération, les avancements et autre, il offre l'avantage de pouvoir être utiliser sur des serveurs de type vanilla ou snapshot mais également sur toutes les autres plateformes de serveur minecraft.
+Un datapack permet de modifier certain aspects du jeu comme la génération, les avancements et autre. Il offre l'avantage de pouvoir être utiliser sur des serveurs de type vanilla mais également sur toutes les autres plateformes de serveur Minecraft.
 
 {% hint style="info" %}
-Les datapck son uniquement disposible pour les version 1.13 et supérieurs de minecraft.
+Les datapack sont uniquement disponible pour les version 1.13 et supérieurs de Minecraft.
 
-Un datapck se presente sous la forme d'un fichier zip.
+Un datapack se présente sous la forme d'un fichier zip.
 {% endhint %}
 
 {% hint style="warning" %}
-Un datapack n'est pas un plugins ou un mod et permet moins de choses que les plugins ou mods. Son installtion doit c'effectuer sur votre serveur minecraft, il n'est pas necessaire d'effectuer une installation client églaement.
+Un datapack n'est pas un plugin ou un mod et permet de faire moins de choses que les plugins ou les mods. Son installation s'effectue sur votre serveur Minecraft uniquement \(comme les plugins\).
 {% endhint %}
 
 ## Installation d'un datapack

@@ -4,11 +4,11 @@
 
 ## Minecraft
 
-* [Installation d'un datapack](minecraft/installation-dun-datapack.md)
 * [Installation de Forge via l'installateur automatique](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Installation de Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Utiliser Openmod chez OMGSERV](minecraft/utiliser-openmod-chez-omgserv.md)
 * [Installation de plugins sur son serveur moddé](minecraft/installation-de-plugins-sur-son-serveur-modde.md)
+* [Installation d'un datapack](minecraft/installation-dun-datapack.md)
 * [Comment partager ses logs Minecraft ?](minecraft/comment-partager-ses-logs-minecraft.md)
 * [Accéder au FTP](minecraft/acceder-au-ftp.md)
 * [Ajout d'un monde personnalisé](minecraft/upload-une-map.md)
