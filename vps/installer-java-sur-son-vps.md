@@ -8,7 +8,7 @@ description: >-
 
 ### Introduction
 
-Java n'est pas forcément installé par défaut sur les système Linux, pour vérifier cela il suffit d'exécuter la commande `java -version` si Java n'est installé le système vous dira quelque chose du style `java: command not found` sinon il vous affichera la version installée et utiliser par défaut. Par exemple Java 8 sera noté `1.8.0`, Java 11 `1.11.0` ou `11.0`, etc.
+Java n'est pas forcément installé par défaut sur les système Linux, pour vérifier cela il suffit d'exécuter la commande `java -version` si Java n'est installé le système vous dira quelque chose du style `java: command not found` sinon il vous affichera la version installée et utilisée par défaut. Par exemple Java 8 sera noté `1.8.0`, Java 11 `1.11.0` ou `11.0`, etc.
 
 ## Installation
 
