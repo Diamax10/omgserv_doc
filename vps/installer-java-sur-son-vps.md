@@ -67,7 +67,7 @@ rm adoptopenjdk-keyring.gpg adoptopenjdk.gpg &&
 sudo mv adoptopenjdk-archive-keyring.gpg /usr/share/keyrings &&
 echo "deb [signed-by=/usr/share/keyrings/adoptopenjdk-archive-keyring.gpg] https://adoptopenjdk.jfrog.io/adoptopenjdk/deb stretch main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list &&
 sudo apt update &&
-sudo apt install adoptopenjdk-16-hotspot-jre
+sudo apt install adoptopenjdk-16-openj9-jre
 ```
 {% endtab %}
 
@@ -81,7 +81,7 @@ rm adoptopenjdk-keyring.gpg adoptopenjdk.gpg &&
 sudo mv adoptopenjdk-archive-keyring.gpg /usr/share/keyrings &&
 echo "deb [signed-by=/usr/share/keyrings/adoptopenjdk-archive-keyring.gpg] https://adoptopenjdk.jfrog.io/adoptopenjdk/deb buster main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list &&
 sudo apt update &&
-sudo apt install adoptopenjdk-16-hotspot-jre
+sudo apt install adoptopenjdk-16-openj9-jre
 ```
 {% endtab %}
 
@@ -95,7 +95,7 @@ rm adoptopenjdk-keyring.gpg adoptopenjdk.gpg &&
 sudo mv adoptopenjdk-archive-keyring.gpg /usr/share/keyrings &&
 echo "deb [signed-by=/usr/share/keyrings/adoptopenjdk-archive-keyring.gpg] https://adoptopenjdk.jfrog.io/adoptopenjdk/deb bionic main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list &&
 sudo apt update &&
-sudo apt install adoptopenjdk-16-hotspot-jre
+sudo apt install adoptopenjdk-16-openj9-jre
 ```
 {% endtab %}
 
@@ -109,7 +109,7 @@ rm adoptopenjdk-keyring.gpg adoptopenjdk.gpg &&
 sudo mv adoptopenjdk-archive-keyring.gpg /usr/share/keyrings &&
 echo "deb [signed-by=/usr/share/keyrings/adoptopenjdk-archive-keyring.gpg] https://adoptopenjdk.jfrog.io/adoptopenjdk/deb focal main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list &&
 sudo apt update &&
-sudo apt install adoptopenjdk-16-hotspot-jre
+sudo apt install adoptopenjdk-16-openj9-jre
 ```
 {% endtab %}
 {% endtabs %}
