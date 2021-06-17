@@ -22,19 +22,19 @@ Son installation s'effectue sur votre serveur Minecraft uniquement \(comme les p
 
 ## Installation d'un datapack
 
-Dans un premier temps, vous allez devoir récupérer le nom de votre map. Pour se faire vous devez vous rendre sur **votre panel** ensuite vous rendre dans l'onglet **propriétés.** Une fois sur cette page vous devez localiser la partie nommé "**Nom de la map**" \(voire image ci-dessous\).
+Dans un premier temps, vous allez devoir récupérer le nom de votre map. Pour se faire vous devez vous rendre sur **votre panel** ensuite vous rendre dans l'onglet **propriétés.** Une fois sur cette page vous devez localiser la partie nommée "**Nom de la map**" \(voir image ci-dessous\).
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
 Dans notre cas, le nom de la map est "world", vous allez ensuite devoir vous rendre dans les fichiers de votre serveur pour se faire je vous renvoie sur le tutoriel [Accéder au FTP](acceder-au-ftp.md).
 
-Une fois connecté en FTP à votre serveur, vous devez vous rendre dans le dossier portant le nom de votre map dans mon cas le dossier "world'. Ensuite dans ce dossier localiser le dossier "**datapack**", une fois de ce dossier, il ne vous reste plus qu’à glisser votre datapack au format zip dedans et redémarrer votre serveur.
+Une fois connecté en FTP à votre serveur, vous devez vous rendre dans le dossier portant le nom de votre map dans mon cas le dossier "world". Ensuite dans ce dossier localisez le dossier "**datapack**", une fois dans ce dossier, il ne vous reste plus qu’à glisser votre datapack au format zip dedans et redémarrer votre serveur.
 
-Pour vérifier que votre datapack a été chargé correctement, vous pouvez vous connecter à votre serveur est fait la commande :
+Pour vérifier que votre datapack a été chargé correctement, vous pouvez vous connecter à votre serveur et faire la commande :
 
 ```text
 /datapack list
 ```
 
-Si vous voyez votre datapack s'afficher en vert dans la liste, félicitation! Vous avez installé votre datapack correctement !
+Si vous voyez votre datapack s'afficher en vert dans la liste, félicitation ! Vous avez installé votre datapack correctement !
 
