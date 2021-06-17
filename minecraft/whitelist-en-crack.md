@@ -39,6 +39,6 @@ Maintenant pour ajouter un joueur à la whitelist géré par le plugin vous deve
 Pour activer la whitelist du plugin faites `/wl on`
 
 {% hint style="info" %}
-Toutes les commandes du plugin sont disponibles sur la page Spigot du plugin
+Toutes les commandes du plugin sont disponibles sur la page Spigot du plugin.
 {% endhint %}
 
