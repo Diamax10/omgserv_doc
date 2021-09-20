@@ -7,7 +7,7 @@
 * [Install Forge with the automatic installer](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Install Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Use Openmod on an OMGSERV server](minecraft/utiliser-openmod-chez-omgserv.md)
-* [Installation of plugins on its modded server](minecraft/installation-de-plugins-sur-son-serveur-modde.md)
+* [Installation of plugins on your modded server](minecraft/installation-de-plugins-sur-son-serveur-modde.md)
 * [Add a custom map](minecraft/upload-une-map.md)
 * [Should I delete my world?](minecraft/dois-je-supprimer-mon-monde.md)
 * [Optimiser son serveur Minecraft](minecraft/optimisation-dun-serveur-minecraft-omgserv.md)

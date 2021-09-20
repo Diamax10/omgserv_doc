@@ -4,7 +4,7 @@ description: >-
   server.
 ---
 
-# Installation of plugins on its modded server
+# Installation of plugins on your modded server
 
 To install plugins on a modded server, you have to take care of **two** criteria:
 
