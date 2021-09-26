@@ -8,7 +8,7 @@ description: Avec ce tutoriel devenez un roi du FTP.
 
 Le protocole FTP vous permet de gérer facilement les fichiers de votre serveur avec un client sur votre ordinateur. Plusieurs client existent, ici nous allons utiliser **FileZilla** qui est très répandu.
 
-Téléchargez FileZilla sur le site officiel sur ce lien : [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
+Téléchargez FileZilla sur le site officiel sur ce lien : [https://filezilla-project.org/download.php?show\_all=1](https://filezilla-project.org/download.php?show_all=1)
 
 Créez vos accès FTP depuis le panel OMGSERV, pour cela aller sur votre serveur sur le panel OMGSERV puis dans l'onglet "**Accès FTP**" sur le menu à gauche. 
 
