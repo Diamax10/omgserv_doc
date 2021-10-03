@@ -21,6 +21,10 @@
 * [Mon serveur ne fait que de se fermer, c'est normal ?](minecraft/mon-serveur-ne-fait-que-de-se-fermer-cest-normal.md)
 * [Quelle API Minecraft choisir ?](minecraft/quelle-api-minecraft-choisir.md)
 
+## Modpacks
+
+* [ATM6 - Migrer vers Mohist - All The Mods 6](modpacks/atm6-migrer-vers-mohist-all-the-mods-6.md)
+
 ## VPS
 
 * [Créer un réseau de serveurs avec Bungeecord sur un VPS Linux](vps/comment-creer-un-reseau-de-serveurs-avec-bungeecord-sur-un-vps-linux.md)
