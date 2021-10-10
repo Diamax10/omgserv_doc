@@ -6,7 +6,7 @@ description: Dans ce tutoriel nous allons voir comment utiliser l’openmod pour
 ### Installation
 
 * Téléchargez sur [le site de Forge](http://files.minecraftforge.net) la version de Forge voulue (exemple: 1.12.2-14.23.5.2838).
-* **Sur votre ordinateur**, ouvrez le `.jar` avec Java téléchargé puis installez Forge en version serveur, en prenant soin de saisir un dossier d'installation vide (voir la capture ci-dessous).
+* **Sur votre ordinateur**, ouvrez le `.jar` téléchargé avec Java puis installez Forge en version serveur, en prenant soin de saisir un dossier d'installation vide (voir la capture ci-dessous).
 * Effectuez une réinstallation du serveur dans l'onglet "Réinstallation" puis en sélectionnant Openmod.
 * Glisser **les deux `.jar` (server et client), le dossier `librairies` et le fichier `.json`** qui auront été extrait précédemment.
 * Définir le **.jar client** en **.jar de démarrage** (OMGSERV le demande).
