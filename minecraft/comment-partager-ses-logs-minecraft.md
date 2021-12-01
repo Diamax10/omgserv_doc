@@ -8,8 +8,8 @@ description: >-
 
 ### 6 étapes simples
 
-1. Récupérer les derniers logs de son serveur via le WebFTP ou en FTP avec un client \([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)\), dans le dossier log le fichier `latest.log` et/ou `fml-latest.log`.
-2. Aller sur [haste.zendrique.ml](https://haste.zendrique.ml).
+1. Récupérer les derniers logs de son serveur via le WebFTP ou en FTP avec un client ([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)), dans le dossier log le fichier `latest.log` et/ou `fml-latest.log`.
+2. Aller sur [haste.zendrique.fr](https://haste.zendrique.fr).
 3. Coller le contenu du fichier de logs.
 4. Cliquer sur l'icône "Sauvegarder" en haut à droite.
 5. Copier l'URL de son navigateur qui a dû changer.
@@ -17,5 +17,4 @@ description: >-
 
 ### Le serveur crash ?
 
-Il a dû généré un dossier `crash-reports`, il suffit de copier-coller le contenu du dernier fichier généré \(voir la date de dernière modification du fichier\) dans l'outil présenté au dessus. Si le texte est trop long, prenez les 500 premières lignes du fichier.
-
+Il a dû généré un dossier `crash-reports`, il suffit de copier-coller le contenu du dernier fichier généré (voir la date de dernière modification du fichier) dans l'outil présenté au dessus. Si le texte est trop long, prenez les 500 premières lignes du fichier.
