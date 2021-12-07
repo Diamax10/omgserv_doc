@@ -38,6 +38,10 @@ Airplane est basée sur Tuinity et optimise de façon intelligente les mécaniqu
 
 Très clairement Airplane est aujourd'hui la meilleure API 1.16-1.17.
 
+### [Purpur](https://purpurmc.org/downloads) (à partir de Minecraft 1.14)
+
+
+
 ## Les plugins
 
 Majoritairement tous les plugins compatibles Bukkit ou Spigot sont compatibles avec Paper, Tuinity et Airplane.
