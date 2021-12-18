@@ -12,7 +12,7 @@ Java n'est pas forcément installé par défaut sur les système Linux, pour vé
 
 ## Installation
 
-### Java 8 \(jusqu'à Minecraft 1.16\)
+### Java 8 (jusqu'à Minecraft 1.16)
 
 {% tabs %}
 {% tab title="Debian 9" %}
@@ -54,7 +54,7 @@ sudo apt update && sudo apt install openjdk-11-jre
 {% endtab %}
 {% endtabs %}
 
-### Java 16 \(à partir de Minecraft 1.17\)
+### Java 16 (à partir de Minecraft 1.17)
 
 {% tabs %}
 {% tab title="Debian 9" %}
@@ -110,6 +110,42 @@ sudo mv adoptopenjdk-archive-keyring.gpg /usr/share/keyrings &&
 echo "deb [signed-by=/usr/share/keyrings/adoptopenjdk-archive-keyring.gpg] https://adoptopenjdk.jfrog.io/adoptopenjdk/deb focal main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list &&
 sudo apt update &&
 sudo apt install adoptopenjdk-16-openj9-jre
+```
+{% endtab %}
+{% endtabs %}
+
+### Java 17 (à partir de Minecraft 1.18)
+
+{% tabs %}
+{% tab title="Debian 9 & 10" %}
+```bash
+sudo apt update &&
+sudo apt install -y apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common &&
+sudo add-apt-repository --yes ppa:linuxuprising/java &&
+sudo apt update && 
+sudo echo "deb http://ppa.launchpad.net/linuxuprising/java/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/linuxuprising-java.list &&
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 73C3DB2A &&
+sudo apt-get update &&
+sudo apt install oracle-java17-installer --install-recommends
+```
+{% endtab %}
+
+{% tab title="Debian 11" %}
+```bash
+sudo apt update && sudo apt install openjdk-17-jre
+```
+{% endtab %}
+
+{% tab title="Ubuntu" %}
+```bash
+sudo apt update &&
+sudo apt install -y apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common &&
+sudo add-apt-repository --yes ppa:linuxuprising/java &&
+sudo apt update && 
+sudo echo "deb http://ppa.launchpad.net/linuxuprising/java/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/linuxuprising-java.list &&
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 73C3DB2A &&
+sudo apt-get update &&
+sudo apt install oracle-java17-installer --install-recommends
 ```
 {% endtab %}
 {% endtabs %}
