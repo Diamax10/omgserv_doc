@@ -26,4 +26,10 @@ description: >-
 
 ### Compléments
 
+#### Restauration de sauvegarde
+
 Si vous aviez fait une sauvegarde de votre serveur précédemment vos pouvez la restaurer pour retrouver vos fichiers d'avant. Cependant faites attention, si vous aviez des plugins ou des mods, il se peut qu'ils ne soient plus compatible avec la nouvelle version de votre serveur.
+
+#### Mise à jour ou changement de version
+
+À tout moment vous pouvez mettre à jour ou changer le fichier .jar. Pour cela, téléchargez le fichier .jar que vous souhaitez mettre puis dans le FTP, mettez le fichier .jar à la racine. Ensuite dans le menu "Dashboard" dans l'encart "Type serveur" puis "Version" cliquez sur le bouton "Changer" vous devriez voir votre fichier sous la catégorie "OpenMod", vous avez juste à le sélectionner et à "changer de version".
