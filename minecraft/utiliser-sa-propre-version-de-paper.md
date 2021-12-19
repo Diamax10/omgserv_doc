@@ -1,0 +1,29 @@
+---
+description: >-
+  Parfois les mises à jour des moteurs de serveur peuvent mettre du temps à être
+  implémentés par le support, ce tutoriel vous montre comment installer sa
+  propre version de Paper ou autres !
+---
+
+# Utiliser sa propre version de Paper
+
+### Base
+
+* Commencez par faire une sauvegarde de votre serveur si vous souhaitez réimporter vos fichiers plus tard ~~ou garder des souvenirs~~ nous avons fait un super tutoriel sur ça [ici](sauvegarde-et-restauration.md).
+* Téléchargez le fichier .jar de votre moteur de serveur, pour nous ici ça sera Paper qui est disponible en téléchargement sur le site officiel [papermc.io](https://papermc.io/downloads).
+* Réinstaller votre serveur en OpenMod, pour cela dans le menu à gauche allez dans "Réinstallation" puis sélectionnez "OpenMod".
+* Glissez le fichier .jar téléchargé précédemment dans la zone prévue à cette effet et attendre que tout se télécharge bien ... cela dépend de votre connexion internet.
+* Cliquez ensuite sur "Installer en OpenMod", une fenêtre s'ouvre vous invitant à sélectionner un "JAR de démarrage", prenez le fichier .jar que vous venez de télécharger.
+* Cliquez sur "Continuer".
+* Aller ensuite dans la menu "Propriétés" (toujours à gauche) puis à droite vérifiez la version de Java sélectionnée.
+  * Pour les versions en dessous de 1.16 sélectionnez **Java 8**,
+  * Pour la 1.16 sélectionnez **Java 11**,
+  * Pour la 1.17 sélectionnez **Java 16**,
+  * Pour la 1.18 sélectionnez **Java 17**.
+* N'oubliez de sauvegarder vos modifications en bas de la page.
+* Et voilà, vous avez installé votre propre version de moteur de serveur :partying\_face:
+* Vous pouvez démarrer votre serveur si vous le souhaitez.
+
+### Compléments
+
+Si vous aviez fait une sauvegarde de votre serveur précédemment vos pouvez la restaurer pour retrouver vos fichiers d'avant. Cependant faites attention, si vous aviez des plugins ou des mods, il se peut qu'ils ne soient plus compatible avec la nouvelle version de votre serveur.

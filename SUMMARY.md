@@ -20,6 +20,7 @@
 * [Je n'arrive pas à changer la difficulté dans le Nether et l'End](minecraft/je-narrive-pas-a-changer-la-difficulte-dans-le-nether-et-lend.md)
 * [Mon serveur ne fait que de se fermer, c'est normal ?](minecraft/mon-serveur-ne-fait-que-de-se-fermer-cest-normal.md)
 * [Quelle API Minecraft choisir ?](minecraft/quelle-api-minecraft-choisir.md)
+* [Utiliser sa propre version de Paper](minecraft/utiliser-sa-propre-version-de-paper.md)
 
 ## Modpacks
 
@@ -35,4 +36,3 @@
 ## Autre
 
 * [Pterodactyl ou PufferPanel ?](autre/pterodactyl-ou-pufferpanel.md)
-
