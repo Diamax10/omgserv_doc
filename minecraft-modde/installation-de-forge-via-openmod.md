@@ -6,6 +6,10 @@ description: >-
 
 # Installation de Forge via Openmod
 
+{% hint style="danger" %}
+Il est impossible d'installer avec Openmod les versions de **Forge supérieur à la 1.17**, dû à un changement dans les arguments de démarrage de Forge.&#x20;
+{% endhint %}
+
 ### Installation
 
 * Téléchargez sur [le site de Forge](http://files.minecraftforge.net) la version de Forge voulue (exemple: 1.12.2-14.23.5.2838).

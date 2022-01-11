@@ -24,7 +24,7 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 ### Les différents types de serveur:
 
-* [**Mohist**](https://mohistmc.com)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2 et 1.16.5**.
+* [**Mohist**](https://mohistmc.com)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2, 1.16.5 **~~**et 1.18.1**~~.
 * [**Catserver**](https://catserver.moe)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**.&#x20;
 * [**KCauldron**](https://sourceforge.net/projects/kcauldron/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.&#x20;
 * [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
@@ -50,7 +50,7 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 * Redémarrer le serveur afin que les plugins prennent effets.
 
 {% hint style="warning" %}
-Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit-Spigot** fonctionneront.\
+Seul les plugins stipulants qu'ils sont compatible avec l'**API Bukkit**, **Spigot** ou **Paper** fonctionneront.\
 Il faut savoir aussi que les plugins influants sur les blocs comme **WorldEdit** peuvent ne pas être à 100% fonctionnels vis à vis des blocs moddés.
 {% endhint %}
 

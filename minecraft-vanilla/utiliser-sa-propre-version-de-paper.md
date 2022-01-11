@@ -9,7 +9,7 @@ description: >-
 
 ### Base
 
-* Commencez par faire une sauvegarde de votre serveur si vous souhaitez réimporter vos fichiers plus tard ~~ou garder des souvenirs~~ nous avons fait un super tutoriel sur ça [ici](sauvegarde-et-restauration.md).
+* Commencez par faire une sauvegarde de votre serveur si vous souhaitez réimporter vos fichiers plus tard ~~ou garder des souvenirs~~ nous avons fait un super tutoriel sur ça [ici](../omgserv/sauvegarde-et-restauration.md).
 * Téléchargez le fichier .jar de votre moteur de serveur, pour nous ici ça sera Paper qui est disponible en téléchargement sur le site officiel [papermc.io](https://papermc.io/downloads).
 * Réinstaller votre serveur en OpenMod, pour cela dans le menu à gauche allez dans "Réinstallation" puis sélectionnez "OpenMod".
 * Glissez le fichier .jar téléchargé précédemment dans la zone prévue à cette effet et attendre que tout se télécharge bien ... cela dépend de votre connexion internet.
