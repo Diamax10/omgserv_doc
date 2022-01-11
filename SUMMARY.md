@@ -18,7 +18,7 @@
 ## OMGSERV
 
 * [Comment partager ses logs Minecraft ?](omgserv/comment-partager-ses-logs-minecraft.md)
-* [Utiliser Openmod](omgserv/utiliser-openmod-chez-omgserv.md)
+* [Utiliser Openmod](omgserv/utiliser-openmod.md)
 * [Accéder au FTP](omgserv/acceder-au-ftp.md)
 * [Mes mobs sont passifs](omgserv/mes-mobs-sont-passifs.md)
 * [Sauvegarde et restauration de son serveur OMGSERV](omgserv/sauvegarde-et-restauration.md)
