@@ -1,7 +1,7 @@
 ---
 description: >-
-  Dans ce tutoriel nous allons voir comment utiliser l’openmod pour installer
-  une version de forge non disponible sur le panel OMGSERV.
+  Dans ce tutoriel nous allons voir comment utiliser Openmod pour installer une
+  version de Forge non disponible sur le panel OMGSERV.
 ---
 
 # Installation de Forge via Openmod

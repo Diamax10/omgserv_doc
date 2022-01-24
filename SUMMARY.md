@@ -14,6 +14,7 @@
 * [Installation de Forge via l'installateur automatique](minecraft-modde/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Installation de Forge via Openmod](minecraft-modde/installation-de-forge-via-openmod.md)
 * [Installation de plugins sur son serveur moddé](minecraft-modde/installation-de-plugins-sur-son-serveur-modde.md)
+* [Installation de Fabric via Openmod](minecraft-modde/installation-de-fabric-via-openmod.md)
 
 ## OMGSERV
 
