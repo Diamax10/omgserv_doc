@@ -11,11 +11,18 @@ description: >-
 
 * Commencez par faire une sauvegarde de votre serveur si vous souhaitez réimporter vos fichiers plus tard ~~ou garder des souvenirs~~ nous avons fait un super tutoriel sur ça [ici](../omgserv/sauvegarde-et-restauration.md).
 * Téléchargez le fichier .jar de votre moteur de serveur, pour nous ici ça sera Paper qui est disponible en téléchargement sur le site officiel [papermc.io](https://papermc.io/downloads).
-* Réinstaller votre serveur en OpenMod, pour cela dans le menu à gauche allez dans "Réinstallation" puis sélectionnez "OpenMod".
+
+{% hint style="info" %}
+Pour télécharger une ancienne version de Paper, il faut cliquer sur le bouton "Legacy" en bas de la page et répondre "Non" à toutes les questions.&#x20;
+
+En répondant "Non" à toutes ces questions vous vous engagez à ne pas recevoir de support de la part de Paper car ces versions **sont anciennes** et plus supportées par Paper.
+{% endhint %}
+
+* Réinstallez votre serveur en OpenMod, pour cela dans le menu à gauche allez dans "Réinstallation" puis sélectionnez "OpenMod".
 * Glissez le fichier .jar téléchargé précédemment dans la zone prévue à cette effet et attendre que tout se télécharge bien ... cela dépend de votre connexion internet.
 * Cliquez ensuite sur "Installer en OpenMod", une fenêtre s'ouvre vous invitant à sélectionner un "JAR de démarrage", prenez le fichier .jar que vous venez de télécharger.
 * Cliquez sur "Continuer".
-* Aller ensuite dans la menu "Propriétés" (toujours à gauche) puis à droite vérifiez la version de Java sélectionnée.
+* Allez ensuite dans la menu "Propriétés" (toujours à gauche), puis à droite vérifiez la version de Java sélectionnée.
   * Pour les versions en dessous de 1.16 sélectionnez **Java 8**,
   * Pour la 1.16 sélectionnez **Java 11**,
   * Pour la 1.17 sélectionnez **Java 16**,
