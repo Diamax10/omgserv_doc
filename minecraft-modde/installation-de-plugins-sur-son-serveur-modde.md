@@ -15,6 +15,8 @@ Pour installer des plugins sur un serveur moddé, il faudra veiller à **deux** 
 
 {% hint style="info" %}
 **Une API ?** Qu'est ce que c'est ? Une API ou **A**pplication **P**rogramming **I**nterface c'est un logiciel intermédiaire permettant à deux applications de se parler. Chaque fois que vous utilisez une application comme Facebook, que vous envoyez un message instantané ou que vous vérifiez la météo sur votre téléphone, vous utilisez une API.
+
+Dans notre cas, cela permet aux développeurs de plugins ou de mods de développer de nouvelles fonctionnalités plus rapidement et facilement sur les différentes versions de Minecraft.
 {% endhint %}
 
 ### API existant:
