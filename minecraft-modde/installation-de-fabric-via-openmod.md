@@ -27,3 +27,14 @@ description: >-
   * Pour la 1.16 sélectionner **Java 11**,
   * Pour la 1.17 sélectionner **Java 16**,
   * Pour la 1.18 sélectionner **Java 17**.
+* Vous pouvez maintenant démarrer votre serveur sous Fabric.&#x20;
+
+### Configuration
+
+{% hint style="info" %}
+**Pour plus stabilité et fiabilité**, utilisez un [client FTP](../omgserv/acceder-au-ftp.md) au lieu du WebFTP d'OMGSERV.
+{% endhint %}
+
+Pour ajouter des mods sur votre serveur rien de plus simple ! Il suffit de mettre les **mods compatibles Fabric** dans le dossier `mods` se trouvant à la racine du serveur. Si ce dossier n'existe pas, il suffit juste de le créer.
+
+Certains mods ont besoin de librairies pour fonctionner, si un dossier `libraries` est fourni avec le mod, il faut mettre son contenu dans le dossier `libraries` du serveur.
