@@ -10,6 +10,10 @@ description: >-
 Forge 1.17+ et Mohist 1.18 ne peuvent pas être installé avec Openmod.
 {% endhint %}
 
+{% hint style="danger" %}
+**Pensez à faire une sauvegarde** de votre serveur avant de suivre le tutoriel si vous souhaitez conserver des fichiers de votre serveur actuel. Pour cela nous avons fait [un tutoriel](sauvegarde-et-restauration.md).
+{% endhint %}
+
 ### Utilisation
 
 * Téléchargez le .jar souhaité sur son **site officiel**.

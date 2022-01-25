@@ -10,6 +10,10 @@ description: >-
 Il est impossible d'installer avec Openmod les versions de **Forge supérieur à la 1.17**, dû à un changement dans les arguments de démarrage de Forge.&#x20;
 {% endhint %}
 
+{% hint style="danger" %}
+**Pensez à faire une sauvegarde** de votre serveur avant de suivre le tutoriel si vous souhaitez conserver des fichiers de votre serveur actuel. Pour cela nous avons fait [un tutoriel](../omgserv/sauvegarde-et-restauration.md).
+{% endhint %}
+
 ### Installation
 
 * Téléchargez sur [le site de Forge](http://files.minecraftforge.net) la version de Forge voulue (exemple: 1.12.2-14.23.5.2838).
