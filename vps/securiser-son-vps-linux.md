@@ -14,6 +14,10 @@ Protéger son VPS est essentiel, c'est la première chose à faire lorsqu'on vie
 
 ### Fail2Ban (le plus simple mais moins efficace)
 
+{% hint style="warning" %}
+Attention, ce service fonctionne toujours mais nous vous recommandons la méthode suivante étant beaucoup plus efficace, couvrant plus de services et plus simple à la configuration sur le long terme.
+{% endhint %}
+
 Fail2Ban est une application permettant de bannir les adresses IP qui essayent de se connecter plusieurs fois (en échouant) à un service (par exemple en SSH). Ainsi les utilisateurs malveillants (souvent des robots) qui tente pleins de combinaisons de mot de passe et nom d'utilisateur ne pourront pas vous [brute force](https://fr.wikipedia.org/wiki/Attaque\_par\_force\_brute). Pour l'installer rien de plus simple, saisissez la commande suivante :
 
 ```bash
@@ -66,4 +70,44 @@ Pour ajouter de nouveaux "parsers" à votre Crowdsec et ainsi sécuriser vos app
 
 ### SSH
 
-Rédaction en cours
+Protéger son VPS avec des logiciels qui détectent les attaques c'est bien mais ces logiciels ne sont pas infaillibles. C'est pour cela qu'il est important de réduire sa surface d'exposition.
+
+Pour cela il est important de ne pas autoriser les connexions SSH sur l'utilisateur `root` car de nombreux robots essayent de se connecter avec cet utilisateur.
+
+Cependant, si vous faites cela, vous non plus vous ne serez plus autoriser à vous connecter avec l'utilisateur `root`, il faut donc créer un nouvel utilisateur appartenant au groupe `sudo` pour vous connecter en tant qu'administrateur sur votre VPS.
+
+Pour ce faire, éditez et exécutez les commandes suivantes:
+
+```shell
+# Installation de sudo pour autoriser l'élévation de privilège
+apt install sudo
+
+# Création d'un utilisateur
+adduser <votre user>
+# Saisissez un mot de passe fort et répétez le.
+# Puis appuyez sur entrée pour laissez les autres valeurs par défaut
+
+# Ajout de l'utilisateur dans le groupe sudo
+usermod -aG sudo <votre user>
+```
+
+Une fois cela fait, connectez-vous en SSH avec votre nouvel utilisateur pour valider sa création et valider l'appartenance au groupe `sudo` en passant à l'utilisateur `root` avec la commande:
+
+```shell
+sudo -s
+```
+
+Maintenant que vous vous êtes bien reconnecté en root, vous allez pouvoir désactiver la connexion via l'utilisateur root depuis SSH. Pour cela, il est nécessaire de modifier le fichier `/etc/ssh/sshd_config` et de modifier la valeur de `PermitRootLogin`
+
+```shell
+nano /etc/ssh/sshd_config
+
+    # Editez PermitRootLogin à No
+    PermitRootLogin No
+```
+
+Et maintenant, une fois le fichier de configuration sauvegardé, il suffit de redémarrer le service SSH. Pour cela exécutez la commande:
+
+```shell
+service sshd restart
+```
