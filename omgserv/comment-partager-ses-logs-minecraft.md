@@ -9,7 +9,7 @@ description: >-
 ### 6 étapes simples
 
 1. Récupérer les derniers logs de son serveur via le WebFTP ou en FTP avec un client ([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)), dans le dossier `logs` le fichier `latest.log` et si tu as un serveur moddé le fichier `fml-latest.log` s'il existe.
-2. Aller sur [haste.zendrique.fr](https://haste.zendrique.fr).
+2. Aller sur [haste.zendrique.fr](https://haste.zendrique.fr/).
 3. Coller le contenu du fichier de logs.
 4. Cliquer sur l'icône "Sauvegarder" en haut à droite.
 5. Copier l'URL de son navigateur qui a dû changer.

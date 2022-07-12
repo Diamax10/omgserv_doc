@@ -7,7 +7,7 @@ description: >-
 # Installation de Forge via Openmod
 
 {% hint style="info" %}
-Pour installer une version de Forge supérieure à la 1.16 veuillez suivre [ce tutoriel](installation-de-forge-via-openmod-1.md).
+Pour installer une version de Forge supérieure à la 1.16 veuillez suivre [ce tutoriel](installation-de-forge-1-17-via-openmod.md).
 {% endhint %}
 
 {% hint style="danger" %}

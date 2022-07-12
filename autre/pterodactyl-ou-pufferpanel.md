@@ -14,7 +14,7 @@ Cette article est en cours de rédaction, certaines phrases peuvent être très 
 
 ### Historique
 
-Parlons de ce magnifique projet qu'est Pterodactyl. Sa première version [beta sortie en 2016](https://github.com/pterodactyl/panel/releases/tag/v0.1.0-beta) a suscité beaucoup d'engouement auprès des administrateurs de serveur Minecraft. À cette époque le marché des panels de gestion de serveurs Minecraft était dominé par [Multicraft](https://www.multicraft.org).
+Parlons de ce magnifique projet qu'est Pterodactyl. Sa première version [beta sortie en 2016](https://github.com/pterodactyl/panel/releases/tag/v0.1.0-beta) a suscité beaucoup d'engouement auprès des administrateurs de serveur Minecraft. À cette époque le marché des panels de gestion de serveurs Minecraft était dominé par [Multicraft](https://www.multicraft.org/).
 
 Ce dernier était l'un des meilleurs, regroupant toutes les fonctionnalités nécessaires pour la bonne gestion de son serveur, avec un panel épuré et tout cela de manière sécurisé avec un daemon capable d'être installé sur chacun des noeuds facilement. Mais toutes ces fonctionnalités avaient un prix, une dizaine d'euros par mois environ, cela dépendait du nombre de noeud. Il existait des versions gratuites et open source de panels de gestion similaire mais aucuns n'étaient satisfaisant réellement.
 

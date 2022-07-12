@@ -26,8 +26,8 @@ Dans notre cas, cela permet aux développeurs de plugins ou de mods de développ
 
 ### Les différents types de serveur:
 
-* [**Mohist**](https://mohistmc.com)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2, 1.16.5 **~~**et 1.18.1**~~.
-* [**Catserver**](https://catserver.moe)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**.&#x20;
+* [**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2, 1.16.5 **~~**et 1.18.1**~~.
+* [**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**.&#x20;
 * [**KCauldron**](https://sourceforge.net/projects/kcauldron/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.&#x20;
 * [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
 * [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible en **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 et 1.12.2**.
