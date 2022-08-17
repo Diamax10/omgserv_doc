@@ -22,19 +22,76 @@ Dans notre cas, cela permet aux développeurs de plugins ou de mods de développ
 ### API existant:
 
 * **API Bukkit-Spigot:** Les plugins téléchargés sur les sites officiels de Bukkit et de Spigot seront compatibles.&#x20;
-* **API SpongeForge:** Les plugins télécgargés sur le site officiel de SpongeForge seront compatible.
+* **API SpongeForge:** Les plugins téléchargés sur le site officiel de SpongeForge seront compatible.
 
 ### Les différents types de serveur:
 
-* [**Mohist**](https://mohistmc.com/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.7.10, 1.12.2, 1.16.5 **~~**et 1.18.1**~~.
-* [**Catserver**](https://catserver.moe/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.12.2**.&#x20;
-* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.&#x20;
-* [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)**:** adpaté à l'API Bukkit-Spigot, disponible en **1.6.X et 1.7.10**.
-* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)**:** adapté à l'API SpongeForge, disponible en **1.10.2, 1.11, 1.11.2, 1.12, 1.12.1 et 1.12.2**.
-
-{% hint style="warning" %}
-Les projets KCauldron et Thermos sont à l'abandon, il n'y aura plus de nouvelles versions pour ces types de serveurs.
+{% tabs %}
+{% tab title="1.6" %}
+{% hint style="danger" %}
+Cette version de Minecraft est très ancienne et n'est plus maintenue par les développeurs. Plus simplement s'il y a des bugs, c'est votre problème.
 {% endhint %}
+
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)****
+* [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)
+{% endtab %}
+
+{% tab title="1.7" %}
+{% hint style="danger" %}
+Cette version de Minecraft est très ancienne et n'est plus maintenue par les développeurs. Plus simplement s'il y a des bugs, c'est votre problème.
+{% endhint %}
+
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/)****
+* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)****
+* [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)
+{% endtab %}
+
+{% tab title="1.8 - 1.11" %}
+Pour supporter les plugins compatibles Sponge:
+
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+{% endtab %}
+
+{% tab title="1.12" %}
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/)****
+* [**Magma**](https://magmafoundation.org/)
+* [**Catserver**](https://catserver.moe/)
+
+Pour supporter les plugins compatibles Sponge:
+
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+{% endtab %}
+
+{% tab title="1.16" %}
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/)****
+* [**Magma**](https://magmafoundation.org/)
+
+Pour supporter les plugins compatibles Sponge:
+
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+{% endtab %}
+
+{% tab title="1.18" %}
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/) **** (n'est plus supporté par les développeurs)
+* [**Magma**](https://magmafoundation.org/)
+{% endtab %}
+
+{% tab title="1.19" %}
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/)****
+{% endtab %}
+{% endtabs %}
 
 ## Quel type de serveur choisir ?
 
