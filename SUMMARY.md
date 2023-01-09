@@ -44,6 +44,10 @@
 * [Installer Java sur son VPS](vps/installer-java-sur-son-vps.md)
 * [Script automatique de création d'un serveur Minecraft](vps/script-automatique-de-creation-dun-serveur-minecraft.md)
 
+## Ark
+
+* [Installation manuelle de mods](ark/ark-installation-mods.md)
+
 ## Autre
 
 * [Pterodactyl ou PufferPanel ?](autre/pterodactyl-ou-pufferpanel.md)
