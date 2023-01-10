@@ -46,7 +46,10 @@
 
 ## Ark
 
+* [Informations et utilisation des fichiers configuration](ark/informations-et-utilisation-des-fichiers-configuration.md)
 * [Installation manuelle de mods](ark/ark-installation-mods.md)
+* [Serveur qui crash suite à l'installation de mods](ark/ark-server-mods-crash.md)
+* [Changer ou désactiver l'évènement saisonnier  ](ark/changer-ou-desactiver-levenement-saisonnier.md)
 
 ## Autre
 

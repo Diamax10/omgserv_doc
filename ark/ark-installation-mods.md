@@ -1,5 +1,8 @@
 ---
-description: Tel est la question.
+description: >-
+  L'installation automatique des mods sur OMGServ est quelques fois dans les
+  choux, voici la manière manuelle de les installer pour une fonctionnalité sans
+  égards
 ---
 
 # Installation manuelle de mods
