@@ -25,6 +25,8 @@ C'est un fichier que vous utiliserez assez rarement, il touche habituellement le
 
 ### Utilisations
 
+####
+
 #### Augmentation des statistiques des joueurs et des créatures
 
 Si vous souhaitez augmenter la valeur que prend votre personnage ou les créatures en leur attribuant des points, cette règle est pour vous.
@@ -66,6 +68,8 @@ Puis enfin pour modifier les statistiques qui font d'un bébé issu d'un oeuf es
 
 * **PerLevelStatsMultiplier\_DinoTamed\_Affinity\[**<mark style="color:red;">**X**</mark>**]=**<mark style="color:green;">**Y**</mark>
 
+####
+
 #### Augmentation des stacks des objets
 
 Si vous trouvez que la pile d'objet en jeu est trop petite ou trop grande vous pouvez la modifier, mais armez vous de courage, vous ne pourrez modifier à la main qu'un stack d'objet à la fois ! Sachez quand même que certains mods pour les stacks sont simple à installer, bien plus que de toucher à ces lignes de codes, si vous vous y intéressez, utilisez notre page pour [installer un mod sur votre serveur](ark-installation-mods.md) en vous renseignant sur les mods de stacks.
@@ -78,6 +82,8 @@ Vous y trouverez deux choses à renseigner, le <mark style="color:red;">CodeItem
 
 Au lieu de tout faire à la main, vous pouvez copier directement les codes depuis ce [lien](https://pastebin.com/zNfNpMAv), il vous suffit de faire sur votre clavier Ctrl+F et de chercher le nom de l'objet en anglais, vous le trouverez vite. **Néanmoins attention** ce [lien](https://pastebin.com/zNfNpMAv) est fait pour que les stacks soient démesurés, faites attention et modifiez le nombre en conséquence.&#x20;
 
+####
+
 #### Augmentation du nombre de structure sur une selle-plateforme
 
 Sous la balise <mark style="color:orange;">\[/script/shootergame.shootergamemode]</mark> vous pouvez modifier la règle suivante, ou le <mark style="color:red;">X</mark> représente la multiplication du nombre de structure : Les selles du jeu de base sont limitées à **32**, donc un multiplicateur de **2** laissera une limite de **64**, un multiplicateur de **10** laissera une limite de **320**, etc...&#x20;
@@ -86,6 +92,22 @@ Les selles modées ne sont pas toujours sur une base de 32, pour éviter les abu
 
 * **PerPlatformMaxStructuresMultiplier=**<mark style="color:red;">**X**</mark>
 
+####
+
+#### Augmenter la vitesse de pousse des champs
+
+Sous la balise <mark style="color:orange;">\[/script/shootergame.shootergamemode]</mark> vous pouvez rajouter et modifier la règle suivante, où <mark style="color:red;">**X**</mark> représente le multiplicateur de pousse des champs, 1 est la valeur de base, plus le nombre est grand plus les plantes pousseront vite.
+
+* **CropGrowthSpeedMultiplier=**<mark style="color:red;">**X**</mark>
+
+####
+
+#### Modifier la rareté des loots des balises
+
+Sous la balise <mark style="color:orange;">\[/script/shootergame.shootergamemode]</mark> vous pouvez rajouter et modifier la règle suivante, où <mark style="color:red;">**X**</mark> représente le multiplicateur de récompenses, 1 est la valeur de base, plus le nombre est grand plus les récompenses seront rares/nombreuses.
+
+* **SupplyCrateLootQualityMultiplier=**<mark style="color:red;">**X**</mark>
+
 ## GameUserSettings.ini
 
 ### Informations
@@ -93,6 +115,8 @@ Les selles modées ne sont pas toujours sur une base de 32, pour éviter les abu
 Contrairement au premier fichier, vous risquez de plus souvent toucher à celui là, il est très utilisé pour modifier quasiment la totalité de la configuration du serveur.
 
 ### Utilisations
+
+####
 
 #### Difficulté et niveau max des créatures
 
@@ -103,8 +127,10 @@ Pour maximiser les chances d'avoir un serveur avec des niveaux équilibrés ou d
 * Sous la balise <mark style="color:orange;">\[ServerSettings]</mark> vérifiez qu'il y a la règle <mark style="color:purple;">DifficultyOffset=1</mark>, et rajoutez sur une nouvelle ligne la règle <mark style="color:purple;">OverrideOfficialDifficulty=5.0</mark>, ce qui force les créature à avoir un niveau multiple de **5**, et mettra le niveau maximum des créatures apprivoisables à **150**, le niveau des créatures dans les caves ou dans les arènes de boss peuvent dépasser ce nombre.
 * Installer le mod [Better Spawn](https://steamcommunity.com/sharedfiles/filedetails/?id=2064588662), qui fait en sorte que le niveau des créatures soit complètement aléatoire, alors que dans la plupart des cas le jeu priorise les créatures bas niveau.
 
+####
+
 #### Augmenter le nombre maximum de structures sur une selle-plateforme
 
-Sous la balise <mark style="color:orange;">\[ServerSettings]</mark> vous pouvez modifier une ligne où <mark style="color:red;">X</mark> est le nombre de structure maximum que la selle peut supporter, cette règle existe car certains mods ont des selles avec des capacités en structures beaucoup plus élevées, cette règle permet donc d'éviter de dépasser une certaine valeur limite en structures :&#x20;
+Sous la balise <mark style="color:orange;">\[ServerSettings]</mark> vous pouvez modifier une ligne où <mark style="color:red;">**X**</mark> est le nombre de structure maximum que la selle peut supporter, cette règle existe car certains mods ont des selles avec des capacités en structures beaucoup plus élevées, cette règle permet donc d'éviter de dépasser une certaine valeur limite en structures :&#x20;
 
 * **MaxPlatformSaddleStructureLimit=**<mark style="color:red;">**X**</mark>
