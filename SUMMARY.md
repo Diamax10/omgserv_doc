@@ -43,6 +43,7 @@
 * [Sécuriser son VPS Linux](vps/securiser-son-vps-linux.md)
 * [Installer Java sur son VPS](vps/installer-java-sur-son-vps.md)
 * [Script automatique de création d'un serveur Minecraft](vps/script-automatique-de-creation-dun-serveur-minecraft.md)
+* [Installer Pterodactyl](vps/installer-pterodactyl.md)
 
 ## Ark
 
