@@ -104,22 +104,24 @@ curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 
 Puis nous installons les services.
 
-<pre class="language-shell"><code class="lang-shell"><strong>sudo apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
-</strong>
+```shell
+sudo apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
+
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-</code></pre>
+```
 
 ### Téléchargement du panel
 
 Nous allons télécharger le panel et le mettre dans son dossier d'installation.
 
-<pre class="language-shell"><code class="lang-shell">sudo mkdir -p /var/www/pterodactyl
-<strong>cd /var/www/pterodactyl
-</strong>
+```shell
+sudo mkdir -p /var/www/pterodactyl
+cd /var/www/pterodactyl
+
 sudo curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
 sudo tar -xzvf panel.tar.gz
 sudo chmod -R 755 storage/* bootstrap/cache/
-</code></pre>
+```
 
 ### Création des utilisateurs de base de données
 
@@ -150,7 +152,9 @@ FLUSH PRIVILEGES;
 exit;
 </code></pre>
 
-### Configuration du panel
+## Configuration
+
+### Panel
 
 Il est temps maintenant de configurer l'environnement du panel afin qu'il sache comment fonctionner.
 
@@ -164,74 +168,209 @@ sudo php artisan key:generate --force
 
 Les commandes suivantes vont vous proposer de remplir des champs. Saisissez vos valeurs, voici un exemple:
 
-```shell
-sudo php artisan p:environment:setup
+<pre class="language-shell"><code class="lang-shell">sudo php artisan p:environment:setup
 
 # Saisissez votre adresse mail (optionbel)
 Egg Author Email [unknown@unknown.com]:
-> contact@exemple.local
-```
+<strong>> contact@exemple.local
+</strong></code></pre>
 
 La seconde question de cette commande est l'URL qui permettra d'accéder à votre panel Pterodactyl. Dans ce tutoriel, nous allons utiliser `https://panel.exemple.local`. N'oubliez surtout pas le `https` !
 
-```shell
-Application URL [http://panel.example.com]:
-> https://panel.exemple.local
-
+<pre class="language-shell"><code class="lang-shell">Application URL [http://panel.example.com]:
+<strong>> https://panel.exemple.local
+</strong>
 # Définition du fuseau horaire du panel
 Application Timezone [UTC]:
-> Europe/Paris
-```
+<strong>> Europe/Paris
+</strong></code></pre>
 
 Les prochaines questions portent sur la configuration de divers drivers de gestion de données du panel. Répondez pour tous `redis`.
 
-```shell
-Cache Driver [Filesystem]:
+<pre class="language-shell"><code class="lang-shell">Cache Driver [Filesystem]:
   [redis    ] Redis (recommended)
   [memcached] Memcached
   [file     ] Filesystem
-> redis
-
+<strong>> redis
+</strong>
 Session Driver [Filesystem]:
   [redis    ] Redis (recommended)
   [memcached] Memcached
   [database ] MySQL Database
   [file     ] Filesystem
   [cookie   ] Cookie
-> redis
-
+<strong>> redis
+</strong>
 Queue Driver [Sync]:
   [redis   ] Redis (recommended)
   [database] MySQL Database
   [sync    ] Sync
-> redis
-```
+<strong>> redis
+</strong></code></pre>
 
 Ensuite répondez "yes" puis "yes" ou "no" selon vos envies de partage de metrics avec Pterodactyl.
 
-```
-Enable UI based settings editor? (yes/no) [yes]:
- > yes                                                              
-
+<pre><code>Enable UI based settings editor? (yes/no) [yes]:
+<strong> > yes                                                              
+</strong>
 Enable sending anonymous telemetry data? (yes/no) [yes]:
- > no
-```
+<strong> > no
+</strong></code></pre>
 
 Puis nous allons finir par configurer les identifiants de connexion à Redis. Comme nous utilisons la configuration par défaut, vous pouvez appuyer sur la touche `Entrer` pour toutes les questions.
 
-```shell
-Redis Host [127.0.0.1]:
- >                                                     
-
+<pre class="language-shell"><code class="lang-shell">Redis Host [127.0.0.1]:
+<strong> >                                                     
+</strong>
 Redis Password:
- > 
-
+<strong> > 
+</strong>
 Redis Port [6379]:
- >
+<strong> >
+</strong></code></pre>
+
+### Base de données
+
+```shell
+sudo php artisan p:environment:database
 ```
 
-Suite du tutoriel en cours de redaction. Vous pouvez toujours suivre la [documentation officielle Pterodactyl](https://pterodactyl.io/panel/1.0/getting\_started.html#environment-configuration).
+<pre><code>Database Host [127.0.0.1]:
+<strong> > 
+</strong>
+Database Port [3306]:
+<strong> > 
+</strong>
+Database Name [panel]:
+<strong> > 
+</strong>                     
+Database Username [pterodactyl]:
+<strong> > 
+</strong>
+Database Password:
+<strong> > <a data-footnote-ref href="#user-content-fn-3">********************</a>
+</strong></code></pre>
+
+### Emails
+
+```shell
+sudo php artisan p:environment:mail
+```
+
+<pre><code> Which driver should be used for sending emails? [SMTP Server]:
+  [smtp    ] SMTP Server
+  [mail    ] PHP's Internal Mail Function
+  [mailgun ] Mailgun Transactional Email
+  [mandrill] Mandrill Transactional Email
+  [postmark] Postmark Transactional Email
+<strong> > mail
+</strong>
+Email address emails should originate from [no-reply@example.com]:
+<strong> > <a data-footnote-ref href="#user-content-fn-4">no-reply@node.exemple.local</a>
+</strong>
+Name that emails should appear from [Pterodactyl Panel]:
+<strong> > Panel
+</strong></code></pre>
+
+### Finalisation
+
+```shell
+sudo php artisan migrate --seed --force
+```
+
+```shell
+sudo php artisan p:user:make
+```
+
+<pre><code>Is this user an administrator? (yes/no) [no]:
+<strong> > yes
+</strong>
+Email Address:
+<strong> > admin@exemple.local
+</strong>
+Username:
+<strong> > admin
+</strong>
+First Name:
+<strong> > Admin
+</strong>
+Last Name:
+<strong> > Local
+</strong>
+ Password:
+<strong> > <a data-footnote-ref href="#user-content-fn-5">***************</a>
+</strong>
++----------+--------------------------------------+
+| Field    | Value                                |
++----------+--------------------------------------+
+| UUID     | 108281cd-9872-4de0-a192-7a63364d2372 |
+| Email    | admin@exemple.local                  |
+| Username | admin                                |
+| Name     | Admin Local                          |
+| Admin    | Yes                                  |
++----------+--------------------------------------+
+</code></pre>
+
+```shell
+sudo chown -R www-data:www-data /var/www/pterodactyl/*
+```
+
+<pre class="language-shell"><code class="lang-shell">sudo crontab -e
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        &#x3C;---- easiest
+  2. /usr/bin/vim.basic
+
+<strong>Choose 1-2 [1]: 1
+</strong></code></pre>
+
+<pre class="language-shell"><code class="lang-shell"># ...
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+<strong>* * * * * php /var/www/pterodactyl/artisan schedule:run >> /dev/null 2
+</strong></code></pre>
+
+```shell
+sudo nano /etc/systemd/system/pteroq.service
+```
+
+{% code title="pteroq.service" %}
+```editorconfig
+# Pterodactyl Queue Worker File
+# ----------------------------------
+
+[Unit]
+Description=Pterodactyl Queue Worker
+After=redis-server.service
+
+[Service]
+# On some systems the user and group might be different.
+# Some systems use `apache` or `nginx` as the user and group.
+User=www-data
+Group=www-data
+Restart=always
+ExecStart=/usr/bin/php /var/www/pterodactyl/artisan queue:work --queue=high,standard,low --sleep=3 --tries=3
+StartLimitInterval=180
+StartLimitBurst=30
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+```
+{% endcode %}
+
+```shell
+sudo systemctl enable --now redis-server
+sudo systemctl enable --now pteroq.service
+```
 
 [^1]: Mot de passe à modifier
 
 [^2]: Mot de passe à modifier
+
+[^3]: N'oubliez pas de saisir le mot de passe définis précédemment
+
+[^4]: N'oubliez pas de modifier
+
+[^5]: Saisissez un nouveau mot de passe pour votre utilisateur admin
