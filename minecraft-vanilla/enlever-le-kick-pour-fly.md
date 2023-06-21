@@ -14,7 +14,3 @@ Pour cela rien de plus simple en suivant les étapes ci-dessous:
 * Remplacer `false` par `true`
 * Sauvegarder le fichier
 * Redémarrer le serveur
-
-
-
-WebFTP > fichier server.properties > ligne allow-flight=true De base la value est sur false, tu passes en true et tu sauves puis redémarres.
