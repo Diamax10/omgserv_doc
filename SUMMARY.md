@@ -8,6 +8,7 @@
 * [Quelle API Minecraft choisir ?](minecraft-vanilla/quelle-api-minecraft-choisir.md)
 * [Utiliser sa propre version de Paper](minecraft-vanilla/utiliser-sa-propre-version-de-paper.md)
 * [Optimiser son serveur Minecraft](minecraft-vanilla/optimisation-dun-serveur-minecraft-omgserv.md)
+* [Enlever le kick pour fly](minecraft-vanilla/enlever-le-kick-pour-fly.md)
 
 ## Minecraft moddé
 
@@ -16,6 +17,7 @@
 * [Installation de Forge 1.17+ via Openmod](minecraft-modde/installation-de-forge-1-17-via-openmod.md)
 * [Installation de plugins sur son serveur moddé](minecraft-modde/installation-de-plugins-sur-son-serveur-modde.md)
 * [Installation de Fabric via Openmod](minecraft-modde/installation-de-fabric-via-openmod.md)
+* [Paramétrer VoiceChat](minecraft-modde/parametrer-voicechat.md)
 
 ## OMGSERV
 
@@ -36,6 +38,7 @@
 ## Minecraft modpacks
 
 * [ATM6 - Migrer vers Mohist - All The Mods 6](minecraft-modpacks/atm6-migrer-vers-mohist-all-the-mods-6.md)
+* [Générer un monde Skyblock sur Ragnamod VI in the sky](minecraft-modpacks/generer-un-monde-skyblock-sur-ragnamod-vi-in-the-sky.md)
 
 ## VPS
 
