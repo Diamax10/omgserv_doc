@@ -34,7 +34,7 @@ Cette version de Minecraft est très ancienne et n'est plus maintenue par les d�
 
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)****
+* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)
 * [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
@@ -45,51 +45,51 @@ Cette version de Minecraft est très ancienne et n'est plus maintenue par les d�
 
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**Mohist**](https://mohistmc.com/)****
-* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)****
+* [**Mohist**](https://mohistmc.com/)
+* [**KCauldron**](https://sourceforge.net/projects/kcauldron/)
 * [**Thermos**](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
 {% tab title="1.8 - 1.11" %}
 Pour supporter les plugins compatibles Sponge:
 
-* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)
 {% endtab %}
 
 {% tab title="1.12" %}
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**Mohist**](https://mohistmc.com/)****
+* [**Mohist**](https://mohistmc.com/)
 * [**Magma**](https://magmafoundation.org/)
 * [**Catserver**](https://catserver.moe/)
 
 Pour supporter les plugins compatibles Sponge:
 
-* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)
 {% endtab %}
 
 {% tab title="1.16" %}
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**Mohist**](https://mohistmc.com/)****
+* [**Mohist**](https://mohistmc.com/)
 * [**Magma**](https://magmafoundation.org/)
 
 Pour supporter les plugins compatibles Sponge:
 
-* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)****
+* [**SpongeForge**](https://www.spongepowered.org/downloads/spongeforge/stable/1.12.2)
 {% endtab %}
 
 {% tab title="1.18" %}
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**Mohist**](https://mohistmc.com/) **** (n'est plus supporté par les développeurs)
+* [**Mohist**](https://mohistmc.com/) (n'est plus supporté par les développeurs)
 * [**Magma**](https://magmafoundation.org/)
 {% endtab %}
 
 {% tab title="1.19" %}
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
-* [**Mohist**](https://mohistmc.com/)****
+* [**Mohist**](https://mohistmc.com/)
 {% endtab %}
 {% endtabs %}
 
@@ -104,7 +104,7 @@ Et voilà, plus qu'à suivre le tutoriel d'installation adapté disponible ci-de
 ## Installer Mohist, Catserver, KCauldron ou Thermos
 
 * Suivre en premier lieu ce [tutoriel](https://docs.idelya-network.fr/minecraft/utiliser-openmod-chez-omgserv)
-* (Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés** et passer en Java 11 pour **Mohist** 1.16)&#x20;
+* (Pour **KCauldron et Thermos:** laisser Java 7 dans l'onglet **Propriétés,** passer en Java 11 pour **Mohist** 1.16 et Java 17 pour Mohist 1.18+)&#x20;
 * Ajouter les [plugins ](https://www.omgserv.com/fr/faq-minecraft/comment\_installer\_un\_plugin\_sur\_mon\_serveur-65/)voulus dans le dossier plugins à l'aide d'un client FTP ([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp))
 * Redémarrer le serveur afin que les plugins prennent effets.
 
