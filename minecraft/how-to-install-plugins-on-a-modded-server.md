@@ -30,7 +30,7 @@ This version of Minecraft is very old and is no longer maintained by the develop
 
 To support Bukkit, Spigot or Paper plugins use:
 
-* [KCauldron](https://app.gitbook.com/s/BkjGgcdqOPHIdskaNaF2/)
+* [KCauldron](http://localhost:5000/s/BkjGgcdqOPHIdskaNaF2/)
 * [Thermos](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
@@ -42,7 +42,7 @@ This version of Minecraft is very old and is no longer maintained by the develop
 To support Bukkit, Spigot or Paper plugins use:
 
 * [Mohist](https://mohistmc.com/)
-* [KCauldron](https://app.gitbook.com/s/BkjGgcdqOPHIdskaNaF2/)
+* [KCauldron](http://localhost:5000/s/BkjGgcdqOPHIdskaNaF2/)
 * [Thermos](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
@@ -78,7 +78,7 @@ To support Sponge plugins use:
 {% tab title="1.18" %}
 To support Bukkit, Spigot or Paper plugins use:
 
-* ~~~~[~~Mohist~~](https://mohistmc.com/) (not supported by developers)
+* [~~Mohist~~](https://mohistmc.com/) (not supported by developers)
 * [Magma](https://magmafoundation.org/)
 {% endtab %}
 

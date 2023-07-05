@@ -7,6 +7,7 @@
 * [Install Forge with the automatic installer](minecraft/installation-de-forge-sur-un-serveur-omgserv.md)
 * [Install Forge via Openmod](minecraft/installation-de-forge-via-openmod.md)
 * [Use Openmod](minecraft/utiliser-openmod-chez-omgserv.md)
+* [Install Fabric via Openmod](minecraft/install-fabric-via-openmod.md)
 * [How to install plugins on a modded server](minecraft/how-to-install-plugins-on-a-modded-server.md)
 * [Installation of plugins on your modded server](minecraft/installation-de-plugins-sur-son-serveur-modde.md)
 * [Add a custom map](minecraft/upload-une-map.md)
