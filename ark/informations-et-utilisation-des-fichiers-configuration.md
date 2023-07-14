@@ -62,7 +62,7 @@ Pour modifier les statistiques gagnées avec les niveaux bonus lors de l'apprivo
 
 Pour modifier les statistiques gagnées à partir du moment où la créature est apprivoisée :&#x20;
 
-* **PerLevelStatsMultiplier\_Tamed\_Add\[**<mark style="color:red;">**X**</mark>**]=**<mark style="color:green;">**Y**</mark>
+* **PerLevelStatsMultiplier\_DinoTamed\_Add\[**<mark style="color:red;">**X**</mark>**]=**<mark style="color:green;">**Y**</mark>
 
 Puis enfin pour modifier les statistiques qui font d'un bébé issu d'un oeuf est meilleur qu'une créature apprivoisé au même niveau
 
