@@ -6,6 +6,14 @@ description: >-
 
 # Install Forge via Openmod
 
+{% hint style="info" %}
+To install a Forge version superior to the 1.16 please follow [this tutorial.](installation-of-forge-1.17+-via-openmod.md)
+{% endhint %}
+
+{% hint style="danger" %}
+**Do a server save before reading this tutorial** if you'd like to keep files from your actual server we made a tutorial [here](../omgserv/sauvegarde-et-restauration.md#make-a-backup).
+{% endhint %}
+
 ## Installation
 
 * Download on [Forge's website](http://files.minecraftforge.net) the desired version of Forge (example: 1.12.2-14.23.5.2838).

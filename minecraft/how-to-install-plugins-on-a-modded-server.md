@@ -30,7 +30,7 @@ This version of Minecraft is very old and is no longer maintained by the develop
 
 To support Bukkit, Spigot or Paper plugins use:
 
-* [KCauldron](http://localhost:5000/s/BkjGgcdqOPHIdskaNaF2/)
+* [KCauldron](http://127.0.0.1:5000/s/BkjGgcdqOPHIdskaNaF2/)
 * [Thermos](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
@@ -42,7 +42,7 @@ This version of Minecraft is very old and is no longer maintained by the develop
 To support Bukkit, Spigot or Paper plugins use:
 
 * [Mohist](https://mohistmc.com/)
-* [KCauldron](http://localhost:5000/s/BkjGgcdqOPHIdskaNaF2/)
+* [KCauldron](http://127.0.0.1:5000/s/BkjGgcdqOPHIdskaNaF2/)
 * [Thermos](https://github.com/CyberdyneCC/Thermos/releases)
 {% endtab %}
 
@@ -94,5 +94,5 @@ To support Bukkit, Spigot or Paper plugins use:
 
 Writing in progress...
 
-Follow [this tutorial](utiliser-openmod-chez-omgserv.md) to install your server in Openmod
+Follow [this tutorial](../omgserv/utiliser-openmod-chez-omgserv.md) to install your server in Openmod
 

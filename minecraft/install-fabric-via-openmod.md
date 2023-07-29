@@ -7,7 +7,7 @@ description: >-
 # Install Fabric via Openmod
 
 {% hint style="danger" %}
-**Do a server save before reading this tutorial** if you'd like to keep files from your actual server we made a tutorial [here](sauvegarde-et-restauration.md#make-a-backup).
+**Do a server save before reading this tutorial** if you'd like to keep files from your actual server we made a tutorial [here](../omgserv/sauvegarde-et-restauration.md#make-a-backup).
 {% endhint %}
 
 **Installation**
@@ -20,7 +20,7 @@ description: >-
 * On the OMGSERV panel select the reinstallation tab, then select Openmod
 * Drag the `fabric-server-launch.jar` then proceed
 * Select the previous JAR file as the "starting jar" and proceed
-* Connect on your FTP server (either via the WebFTP on your panel or via a [client](connect-to-ftp.md))
+* Connect on your FTP server (either via the WebFTP on your panel or via a [client](../omgserv/connect-to-ftp.md))
 * Upload the `libraries` folder and the `server.jar`
 * On the OMGSERV panel under the "properties" tab, change the version of Java used:
   * For versions under 1.16 select **Java 8**
