@@ -21,13 +21,17 @@ sudo apt update && sudo apt install openjdk-8-jre
 ```
 {% endtab %}
 
-{% tab title="Debian 10" %}
+{% tab title="Debian 10 & 11" %}
 ```bash
-sudo apt update &&
-sudo apt install -y apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common &&
-wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - &&
-sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ &&
-sudo apt update && sudo apt install adoptopenjdk-8-hotspot
+apt install -y wget apt-transport-https gpg
+
+wget -qO - https://packages.adoptium.net/artifactory/api/gpg/key/public | gpg --dearmor | tee /etc/apt/trusted.gpg.d/adoptium.gpg > /dev/null
+
+echo "deb https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | tee /etc/apt/sources.list.d/adoptium.list
+
+apt update
+
+apt install temurin-8-jre
 ```
 {% endtab %}
 

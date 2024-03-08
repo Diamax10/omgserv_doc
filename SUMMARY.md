@@ -23,7 +23,7 @@
 * [Installation de Fabric via Openmod](minecraft-modde/installation-de-fabric-via-openmod.md)
 * [Paramétrer VoiceChat](minecraft-modde/parametrer-voicechat.md)
 
-## ✳ OMGSERV
+## ✳️ OMGSERV
 
 * [Comment partager ses logs Minecraft ?](omgserv/comment-partager-ses-logs-minecraft.md)
 * [Utiliser Openmod](omgserv/utiliser-openmod.md)
@@ -44,7 +44,7 @@
 * [ATM6 - Migrer vers Mohist - All The Mods 6](minecraft-modpacks/atm6-migrer-vers-mohist-all-the-mods-6.md)
 * [Générer un monde Skyblock sur Ragnamod VI in the sky](minecraft-modpacks/generer-un-monde-skyblock-sur-ragnamod-vi-in-the-sky.md)
 
-## 🖥 VPS
+## 🖥️ VPS
 
 * [Créer un réseau de serveurs avec Bungeecord sur un VPS Linux](vps/comment-creer-un-reseau-de-serveurs-avec-bungeecord-sur-un-vps-linux.md)
 * [Sécuriser son VPS Linux](vps/securiser-son-vps-linux.md)
