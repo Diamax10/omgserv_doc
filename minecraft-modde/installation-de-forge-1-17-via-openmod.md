@@ -27,7 +27,8 @@ Pour installer une version de Forge inférieure à la 1.17 veuillez suivre [ce t
 
 * Vérifiez la version de Java dans les **propriétés** du serveur sur le panel&#x20;
   * Pour la 1.17 sélectionner **Java 16**,
-  * Pour la 1.18+ sélectionner **Java 17**.
+  * Pour la 1.18, 1.19 et 1.20 sélectionner **Java 17,**
+  * Pour la 1.21+ sélectionner **Java 21.**
 * Attendre que le serveur s'allume complètement (voir la console si besoin) puis éteindre le serveur.
 * Se connecter en FTP sur le serveur avec un client FTP comme [FileZilla](https://filezilla-project.org/download.php?type=client) ([tutoriel](https://docs.idelya-network.fr/minecraft/acceder-au-ftp)) (ou avec le WebFTP mais ceci est déconseillé car beaucoup de bugs).
 * Glisser les mods dans le dossier `mods`, ainsi que la configuration s’il y en a une.&#x20;

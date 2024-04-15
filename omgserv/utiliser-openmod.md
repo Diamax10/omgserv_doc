@@ -24,7 +24,8 @@ Pour installer une version de Forge supérieure à la 1.16 veuillez suivre [ce t
   * Pour les versions en dessous de 1.16 sélectionner **Java 8**,
   * Pour la 1.16 sélectionner **Java 11**,
   * Pour la 1.17 sélectionner **Java 16**,
-  * Pour la 1.18+ sélectionner **Java 17**.
+  * Pour la 1.18, 1.19 et 1.20 sélectionner **Java 17,**
+  * Pour la 1.21+ sélectionner **Java 21**.
 
 ### Ajouter des mods pour les serveurs sous Forge, Mohist ou Fabric
 

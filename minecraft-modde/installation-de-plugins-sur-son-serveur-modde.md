@@ -90,6 +90,21 @@ Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
 
 * [**Mohist**](https://mohistmc.com/)
+
+Pour supporter les plugins compatibles Bukkit et Spigot
+
+* [**Arclight Horn**](https://github.com/IzzelAliz/Arclight/releases)
+{% endtab %}
+
+{% tab title="1.20" %}
+Pour supporter les plugins compatibles Bukkit, Spigot et Paper:
+
+* [**Mohist**](https://mohistmc.com/)
+
+Pour supporter les plugins compatibles Bukkit et Spigot
+
+* (1.20 - 1.20.1) [**Arclight Trials**](https://github.com/IzzelAliz/Arclight/releases)
+* (1.20.4) [**Arclight Whisper**](https://github.com/IzzelAliz/Arclight/releases)
 {% endtab %}
 {% endtabs %}
 

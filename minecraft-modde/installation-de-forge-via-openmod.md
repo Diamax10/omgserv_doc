@@ -22,7 +22,11 @@ Pour installer une version de Forge supérieure à la 1.16 veuillez suivre [ce t
 * Glisser **les deux `.jar` (server et client), le dossier `librairies` et le fichier `.json`** qui auront été extrait précédemment.
 * Définir le **.jar client** en **.jar de démarrage** (OMGSERV le demande).
 
-![](../.gitbook/assets/small\_capture\_d\_ecran\_2021\_01\_13\_a\_14\_26\_55\_49c6053892.png)
+<div align="center">
+
+<img src="../.gitbook/assets/small_capture_d_ecran_2021_01_13_a_14_26_55_49c6053892.png" alt="">
+
+</div>
 
 ### Configuration
 
