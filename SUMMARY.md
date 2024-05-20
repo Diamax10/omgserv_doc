@@ -13,6 +13,7 @@
 ## 🧊 Minecraft Bedrock
 
 * [Mettre à jour Geyser](minecraft-bedrock/mettre-a-jour-geyser.md)
+* [Installer Geyser](minecraft-bedrock/installer-geyser.md)
 
 ## 👾 Minecraft moddé
 

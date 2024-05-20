@@ -61,7 +61,7 @@ Cette étape peut être un peu longue, étant donné que certains mods sont lour
 
 Une fois que tout est bon jusque là, il vous reste plus qu'à tout activer !
 
-Depuis l'onglet **Mods** dans votre panneau de configuration **OMGserv** : ****&#x20;
+Depuis l'onglet **Mods** dans votre panneau de configuration **OMGserv** :&#x20;
 
 \-> Activez les mods que vous souhaitez
 
