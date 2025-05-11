@@ -11,7 +11,7 @@ To setup Voicechat you'll need to :
 * Stop your server
 * Ask a new port, for that head to the "Plugins" tab in your OMGSERV panel, then click on "Assign a new port"
 * Remember the assigned port and IP adress assigned
-* go in voice chat configuratio file (for the plugin it is called `voicechat-server.properties` )
+* go in voice chat configuration file (for the plugin it is called `voicechat-server.properties` )
 * Change the fields :
   * `bind_address` , put the assigned IP adress
   * `port` , put the assigned port
